@@ -24,18 +24,33 @@ const trialData = jsPsych.randomization.shuffle(
 
 const preload = {
   type: jsPsychPreload,
-  audio: trialData.map(t => t.audio)
+  audio: [
+    'audio/beep-125033.mp3',
+  ...trialData.map(t => t.audio)
+]
 };
 
 const instructions = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-    <p>You'll hear a word. Then a visual word will appear.</p>
-    <p>Press <strong>F</strong> if it is a real English collocation, or <strong>J</strong> if it is not.</p>
+    <p>You will see a cross, hear a beep, then hear a word. Afterwards, a visual word will appear.</p>
+    <p>Press <strong>F</strong> if the two words make a real English collocation, or <strong>J</strong> if they do not.</p>
     <p>Press any key to begin.</p>`
 };
 
 const trials = trialData.map(t => [
+  {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `<p style="font-size: 50px;">+<`,
+    choices: "NO_KEYS",
+    trial_duration: 300
+  },
+  {
+    type: jsPsychAudioKeyboardResponse,
+    stimulus: 'audio/beep-125033.mp3',
+    choices: "NO_KEYS",
+    trial_ends_after_audio: true
+  },
   {
     type: jsPsychAudioKeyboardResponse,
     stimulus: t.audio,
@@ -44,7 +59,7 @@ const trials = trialData.map(t => [
   },
   {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: `<p style="font-size: 40px;">${t.target}</p>`,
+    stimulus: `<p style="font-size: 40px;">${t.target}<p>`,
     choices: ['f', 'j'],
     data: {
       target: t.target,
@@ -53,6 +68,5 @@ const trials = trialData.map(t => [
     }
   }
 ]).flat();
-
 // Run the timeline
 jsPsych.run([preload, instructions, ...trials]);
