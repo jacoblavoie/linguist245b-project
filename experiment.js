@@ -112,4 +112,4 @@ const thank_you = {
 };
 
 // Run the timeline
-jsPsych.run([preload, instructions, ...trialTimeline, save_data, thank_you]);
+jsPsych.run([preload, instructions_page1, instructions_page2, ...trialTimeline, save_data, thank_you]);
