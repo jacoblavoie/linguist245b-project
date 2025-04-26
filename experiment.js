@@ -33,12 +33,27 @@ const preload = {
 ]
 };
 
-const instructions = {
+const instructions_page1 = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-    <p>You will see a cross, hear a beep, then hear a word. Afterwards, a visual word will appear.</p>
-    <p>Press <strong>F</strong> if the two words make a real English collocation, or <strong>J</strong> if they do not.</p>
-    <p>Press any key to begin.</p>`
+    <p>Welcome to the study!</p>
+    <p>In this task, you will first see a cross, hear a beep, then hear a spoken word.</p>
+    <p>After the audio, a visual word will appear on the screen.</p>
+    <p>Your job is to decide whether the two words together form a real English collocation.</p>
+    <p>Press <strong>F</strong> for YES, <strong>J</strong> for NO.</p>
+    <p>Press any key to continue.</p>
+  `
+};
+
+const instructions_page2 = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `
+    <p>Important:</p>
+    <p>The audio you hear is the <strong>second word</strong> of a possible collocation.</p>
+    <p>For example, if you see "invest" and hear "cash", you should think about whether "invest cash" is an appropriate combination of words in English.</p>
+    <p>Please respond as quickly and accurately as possible.</p>
+    <p>Press any key when you are ready to begin.</p>
+  `
 };
 
 const trialTimeline = trialData.map(t => [
@@ -62,12 +77,18 @@ const trialTimeline = trialData.map(t => [
   },
   {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: `<p style="font-size: 40px;">${t.target}<p>`,
+    stimulus: `<p style="font-size: 40px;">${t.target}</p>`,
     choices: ['f', 'j'],
+    trial_duration: 1500,
+    stimulus_duration: 300,
     data: {
       target: t.target,
       prime: t.prime,
-      prime_type: t.prime_type
+      prime_type: t.prime_type,
+      correct_response: (t.prime_type === 'unrelated') ? 'j' : 'f' 
+    },
+    on_finish: function(data){
+      data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
     }
   }
 ]).flat();
