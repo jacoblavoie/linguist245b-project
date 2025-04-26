@@ -1,0 +1,15 @@
+/* jspsych.css */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333333;
+  margin: 40px;
+  text-align: center;
+}
+
+.jspsych-content {
+  max-width: 800px;
+  margin: auto;
+}
