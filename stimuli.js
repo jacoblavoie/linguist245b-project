@@ -17,7 +17,7 @@ const stimulusList = [
   { target: "hurt", primes: { literal: "ankle1", metaphor: "pride1", unrelated: "cave1" } },
   { target: "grasp", primes: { literal: "handle", metaphor: "essence1", unrelated: "tunnel" } },
   { target: "catch", primes: { literal: "trout1", metaphor: "train", unrelated: "farm1" } },
-  { target: "cut", primes: { literal: "grass", metaphor: "budget1", unrelated: "beach" } },
+  { target: "cut", primes: { literal: "grass", metaphor: "budget1", unrelated: "beach1" } },
   { target: "wipe", primes: { literal: "stain", metaphor: "smirk1", unrelated: "hawk1" } },
   { target: "run", primes: { literal: "mile1", metaphor: "test1", unrelated: "bush1" } },
   { target: "save", primes: { literal: "dollar", metaphor: "planet1", unrelated: "alarm1" } },
