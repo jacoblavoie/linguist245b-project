@@ -1,5 +1,6 @@
 // Initialize jsPsych
 const jsPsych = initJsPsych({
+    use_webaudio: false,
     on_finish: function() {
       jsPsych.data.displayData();
     }
