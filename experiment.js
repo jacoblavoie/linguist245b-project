@@ -1,13 +1,16 @@
 // Initialize jsPsych
-const jsPsych = initJsPsych();
+const jsPsych = initJsPsych({
+    on_finish: function() {
+      jsPsych.data.displayData();
+    }
+  });
 
-// Now continue normally
+// Define my trials
 const demoTrials = [
   { target: "invest", prime: "cash1", prime_type: "literal" },
   { target: "invest", prime: "effort", prime_type: "metaphor" },
   { target: "invest", prime: "garden1", prime_type: "unrelated" }
 ];
-
 // Shuffle and preload
 const trialData = jsPsych.randomization.shuffle(
   demoTrials.map(t => ({
@@ -27,7 +30,7 @@ const instructions = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
     <p>You'll hear a word. Then a visual word will appear.</p>
-    <p>Press <strong>F</strong> if it is a real English word, or <strong>J</strong> if it is not.</p>
+    <p>Press <strong>F</strong> if it is a real English collocation, or <strong>J</strong> if it is not.</p>
     <p>Press any key to begin.</p>`
 };
 
