@@ -6,6 +6,11 @@ const jsPsych = initJsPsych({
     }
   });
 
+const subject_id = jsPsych.randomization.randomID(10);
+
+jsPsych.data.addProperties({
+  subject_id: subject_id
+});
 // Define my trials
 const demoTrials = [
   { target: "invest", prime: "cash1", prime_type: "literal" },
@@ -69,5 +74,24 @@ const trialTimeline = trialData.map(t => [
     }
   }
 ]).flat();
+
+const save_data = {
+  type: jsPsychPipe,
+  action: "save",
+  experiment_id: "V0uzmGtsMm82",
+  filename: `${subject_id}.csv`,
+  data_string: ()=>jsPsych.data.get().csv()
+};
+
+const thank_you = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `
+    <p>Thank you so much for participating!</p>
+    <p>Your participant ID is: <strong>${subject_id}</strong></p>
+    <p>Please save this ID for payment and/or if you need it for your records.</p>
+    <p>Press any key to finish.</p>
+  `
+};
+
 // Run the timeline
-jsPsych.run([preload, instructions, ...trialTimeline]);
+jsPsych.run([preload, instructions, ...trialTimeline, save_data, thank_you]);
