@@ -12,6 +12,7 @@ const demoTrials = [
   { target: "invest", prime: "effort", prime_type: "metaphor" },
   { target: "invest", prime: "garden1", prime_type: "unrelated" }
 ];
+
 // Shuffle and preload
 const trialData = jsPsych.randomization.shuffle(
   demoTrials.map(t => ({
@@ -38,10 +39,10 @@ const instructions = {
     <p>Press any key to begin.</p>`
 };
 
-const trials = trialData.map(t => [
+const trialTimeline = trialData.map(t => [
   {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: `<p style="font-size: 50px;">+<`,
+    stimulus: `<p style="font-size: 50px;">+</p>`,
     choices: "NO_KEYS",
     trial_duration: 300
   },
@@ -69,4 +70,4 @@ const trials = trialData.map(t => [
   }
 ]).flat();
 // Run the timeline
-jsPsych.run([preload, instructions, ...trials]);
+jsPsych.run([preload, instructions, ...trialTimeline]);
