@@ -12,20 +12,17 @@ jsPsych.data.addProperties({
   subject_id: subject_id
 });
 // Define my trials
-const demoTrials = [
-  { target: "invest", prime: "cash1", prime_type: "literal" },
-  { target: "invest", prime: "effort", prime_type: "metaphor" },
-  { target: "invest", prime: "garden1", prime_type: "unrelated" }
-];
+const conditions = ['literal', 'metaphor', 'unrelated'];
 
-// Shuffle and preload
 const trialData = jsPsych.randomization.shuffle(
-  demoTrials.map(t => ({
-    audio: `audio/${t.prime}.wav`,
-    target: t.target,
-    prime: t.prime,
-    prime_type: t.prime_type
-  }))
+  stimulusList.flatMap(stim => 
+    conditions.map(cond => ({
+      audio: `audio/${stim.primes[cond]}.wav`,
+      target: stim.target,
+      prime: stim.primes[cond],
+      prime_type: cond
+    }))
+  )
 );
 
 const preload = {
