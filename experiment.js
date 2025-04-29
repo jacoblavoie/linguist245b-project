@@ -39,8 +39,11 @@ const instructions_page1 = {
     <p>Welcome to the study!</p>
     <p>In this task, you will first see a cross, hear a beep, then hear a spoken word.</p>
     <p>After the audio, a visual word will appear on the screen.</p>
-    <p>Your job is to decide whether the two words together form a real English collocation.</p>
-    <p>Press <strong>F</strong> for YES, <strong>J</strong> for NO.</p>
+    <p>You will be making a decision about whether the two words are closely related to one another in English.</p>
+    <p>For example, the words "book" and "write" are closely related because you can write a book. The words "snow" and "write" are not related because you cannot write snow</p>
+    <p>To make a decision about whether each word pair is acceptable in English, press <strong>F</strong> for YES, <strong>J</strong> for NO.</p>
+    <p>Please use your best judgement. In some cases, you may think of some distant connection (e.g., you can write a poem about snow)</p>
+    <p>However, you may think of distant connections between words. For example, you might think "someone can write about snow," but you should agree that this is a stretch and they are not related to each other in general</p>
     <p>Press any key to continue.</p>
   `
 };
