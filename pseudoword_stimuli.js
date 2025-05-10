@@ -385,4 +385,3 @@ const pseudowordStimuli = [
   }
 ];
 
-export default pseudowordStimuli;

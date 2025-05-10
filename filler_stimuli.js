@@ -97,4 +97,3 @@ const fillerStimuli = [
   }
 ];
 
-export default fillerStimuli;
