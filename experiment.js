@@ -1,3 +1,6 @@
+import fillerStimuli from './filler_stimuli.js';
+import pseudowordStimuli from './pseudoword_stimuli.js';
+
 const general_intro = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
@@ -12,6 +15,29 @@ const general_intro = {
     <p>Press any key to begin the vocabulary test.</p>
   `
 };
+
+function generateLatinSquareList(stimulusList, listIndex) {
+  const conditions = ['literal', 'metaphor', 'unrelated'];
+  const shuffled = jsPsych.randomization.shuffle(stimulusList.slice());
+
+  const blocks = [
+    shuffled.slice(0, 16),
+    shuffled.slice(16, 32),
+    shuffled.slice(32, 48)
+  ];
+
+  const trials = blocks.flatMap((block, i) => {
+    const condition = conditions[(i + listIndex) % 3];
+    return block.map(stim => ({
+      audio: `audio/${stim.primes[condition]}.wav`,
+      target: stim.target,
+      prime: stim.primes[condition],
+      prime_type: condition
+    }));
+  });
+
+  return trials;
+}
 // Initialize jsPsych
 const jsPsych = initJsPsych({
     use_webaudio: false,
@@ -22,28 +48,38 @@ const jsPsych = initJsPsych({
 
 const subject_id = jsPsych.randomization.randomID(10);
 
-jsPsych.data.addProperties({
-  subject_id: subject_id
-});
 // Define my trials
-const conditions = ['literal', 'metaphor', 'unrelated'];
+const listIndex = Math.floor(Math.random() * 3); // assigns participant to one of 3 lists
+const trialData = generateLatinSquareList(stimulusList, listIndex);
 
-const trialData = jsPsych.randomization.shuffle(
-  stimulusList.flatMap(stim => 
-    conditions.map(cond => ({
-      audio: `audio/${stim.primes[cond]}.wav`,
-      target: stim.target,
-      prime: stim.primes[cond],
-      prime_type: cond
-    }))
-  )
-);
+jsPsych.data.addProperties({
+  subject_id: subject_id,
+  list_index: listIndex 
+});
+
+
+// Combine with filler and pseudoword trials
+const allTrials = jsPsych.randomization.shuffle([
+  ...trialData,
+  ...fillerStimuli,
+  ...pseudowordStimuli
+]);
+
+// Sample 2 from each type for practice
+const practiceTrials = [
+  ...jsPsych.randomization.sampleWithoutReplacement(trialData, 2),
+  ...jsPsych.randomization.sampleWithoutReplacement(fillerStimuli, 2),
+  ...jsPsych.randomization.sampleWithoutReplacement(pseudowordStimuli, 2)
+];
+
+// Shuffle practice trials
+const shuffledPractice = jsPsych.randomization.shuffle(practiceTrials);
 
 const preload = {
   type: jsPsychPreload,
   audio: [
     'audio/beep-125033.mp3',
-  ...trialData.map(t => t.audio)
+  ...allTrials.map(t => t.audio)
 ]
 };
 
@@ -214,7 +250,7 @@ const instructions_page2 = {
   `
 };
 
-const trialTimeline = trialData.map(t => [
+const trialTimeline = allTrials.map(t => [
   {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `<p style="font-size: 50px;">+</p>`,
@@ -251,6 +287,43 @@ const trialTimeline = trialData.map(t => [
   }
 ]).flat();
 
+const practiceTimeline = shuffledPractice.map(t => [
+  {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `<p style="font-size: 50px;">+</p>`,
+    choices: "NO_KEYS",
+    trial_duration: 300
+  },
+  {
+    type: jsPsychAudioKeyboardResponse,
+    stimulus: 'audio/beep-125033.mp3',
+    choices: "NO_KEYS",
+    trial_ends_after_audio: true
+  },
+  {
+    type: jsPsychAudioKeyboardResponse,
+    stimulus: t.audio,
+    choices: "NO_KEYS",
+    trial_ends_after_audio: true
+  },
+  {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `<p style="font-size: 40px;">${t.target}</p>`,
+    choices: ['f', 'j'],
+    trial_duration: 1500,
+    stimulus_duration: 300,
+    data: {
+      target: t.target,
+      prime: t.prime,
+      prime_type: t.prime_type,
+      correct_response: (t.prime_type === 'unrelated') ? 'j' : 'f'
+    },
+    on_finish: function(data){
+      data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
+    }
+  }
+]).flat();
+
 const save_data = {
   type: jsPsychPipe,
   action: "save",
@@ -270,4 +343,24 @@ const thank_you = {
 };
 
 // Run the timeline
-jsPsych.run([general_intro, preload, general_intro, lextale_instructions, ...lextale_trials, score_lextale, save_lextale, break_before_priming, instructions_page1, instructions_page2, ...trialTimeline, save_data, thank_you]);
+jsPsych.run([general_intro, 
+  preload,
+  lextale_instructions,
+  ...lextale_trials,
+  score_lextale,
+  save_lextale,
+  break_before_priming,
+  instructions_page1,
+  instructions_page2,
+  {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `
+      <p>You will now complete a few <strong>practice trials</strong> to get familiar with the task.</p>
+      <p>These are not scored and are only to help you get used to the format.</p>
+      <p>Press any key to begin the practice trials.</p>
+    `
+  },  
+  ...practiceTimeline, 
+  ...trialTimeline, 
+  save_data, 
+  thank_you]);
