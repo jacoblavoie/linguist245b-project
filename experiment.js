@@ -37,13 +37,13 @@ function generateLatinSquareList(stimulusList, listIndex) {
 }
 // Initialize jsPsych
 const jsPsych = initJsPsych({
-    use_webaudio: false,
-    show_progress_bar: true,
-    auto_update_progress_bar: false,
-    on_finish: function() {
-      jsPsych.data.displayData();
-    }
-  });
+  use_webaudio: false,
+  show_progress_bar: true,
+  auto_update_progress_bar: true, 
+  on_finish: function() {
+    jsPsych.data.displayData();
+  }
+});
 
 const subject_id = jsPsych.randomization.randomID(10);
 
