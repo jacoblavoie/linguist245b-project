@@ -1,266 +1,266 @@
 const pseudowordStimuli = [
   {
     "target": "britb",
-    "prime": "account1",
-    "audio": "audio/account1.wav",
+    "prime": "ego",
+    "audio": "audio/ego.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "climd",
-    "prime": "age1",
-    "audio": "audio/age1.wav",
+    "prime": "truth1",
+    "audio": "audio/truth1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "cratth",
-    "prime": "alarm1",
-    "audio": "audio/alarm1.wav",
+    "prime": "planet1",
+    "audio": "audio/planet1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "cretb",
-    "prime": "ankle1",
-    "audio": "audio/ankle1.wav",
+    "prime": "foe1",
+    "audio": "audio/foe1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "cretsh",
-    "prime": "arm",
-    "audio": "audio/arm.wav",
+    "prime": "gossip1",
+    "audio": "audio/gossip1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "crimsh",
-    "prime": "baby",
-    "audio": "audio/baby.wav",
+    "prime": "weight1",
+    "audio": "audio/weight1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "crint",
-    "prime": "battle1",
-    "audio": "audio/battle1.wav",
+    "prime": "mind",
+    "audio": "audio/mind.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "cronth",
-    "prime": "beach1",
-    "audio": "audio/beach1.wav",
+    "prime": "haste1",
+    "audio": "audio/haste1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "crupd",
-    "prime": "belief",
-    "audio": "audio/belief.wav",
+    "prime": "stain",
+    "audio": "audio/stain.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "crups",
-    "prime": "birth1",
-    "audio": "audio/birth1.wav",
+    "prime": "dome",
+    "audio": "audio/dome.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "deliebe",
-    "prime": "bishop1",
-    "audio": "audio/bishop1.wav",
+    "prime": "scar",
+    "audio": "audio/scar.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "dralm",
-    "prime": "bomb1",
-    "audio": "audio/bomb1.wav",
+    "prime": "heart1",
+    "audio": "audio/heart1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "dretb",
-    "prime": "bottle",
-    "audio": "audio/bottle.wav",
+    "prime": "holiday1",
+    "audio": "audio/holiday1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "drimg",
-    "prime": "brain",
-    "audio": "audio/brain.wav",
+    "prime": "emotion",
+    "audio": "audio/emotion.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "drinth",
-    "prime": "breath",
-    "audio": "audio/breath.wav",
+    "prime": "topic",
+    "audio": "audio/topic.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "droothe",
-    "prime": "bridge",
-    "audio": "audio/bridge.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "dropt",
-    "prime": "budget1",
-    "audio": "audio/budget1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "flimch",
-    "prime": "burden",
-    "audio": "audio/burden.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "fritt",
-    "prime": "bush1",
-    "audio": "audio/bush1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "glapm",
-    "prime": "butter1",
-    "audio": "audio/butter1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "glaps",
-    "prime": "camp",
-    "audio": "audio/camp.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "gleach",
-    "prime": "camera1",
-    "audio": "audio/camera1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "glief",
-    "prime": "cancer1",
-    "audio": "audio/cancer1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "glont",
-    "prime": "car",
-    "audio": "audio/car.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "glotn",
-    "prime": "card1",
-    "audio": "audio/card1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "glung",
-    "prime": "case1",
-    "audio": "audio/case1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "gretd",
-    "prime": "cash1",
-    "audio": "audio/cash1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "grigg",
-    "prime": "castle",
-    "audio": "audio/castle.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "plapb",
-    "prime": "cause",
-    "audio": "audio/cause.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "platd",
-    "prime": "cave1",
-    "audio": "audio/cave1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "plotth",
-    "prime": "ceiling",
-    "audio": "audio/ceiling.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "protd",
-    "prime": "chance",
-    "audio": "audio/chance.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "protsh",
-    "prime": "church1",
-    "audio": "audio/church1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "scolve",
     "prime": "client1",
     "audio": "audio/client1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "slalm",
-    "prime": "cloud1",
-    "audio": "audio/cloud1.wav",
+    "target": "dropt",
+    "prime": "vehicle1",
+    "audio": "audio/vehicle1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "slitm",
-    "prime": "coat",
-    "audio": "audio/coat.wav",
+    "target": "flimch",
+    "prime": "life1",
+    "audio": "audio/life1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "slotch",
-    "prime": "corpse1",
-    "audio": "audio/corpse1.wav",
+    "target": "fritt",
+    "prime": "pain1",
+    "audio": "audio/pain1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "smims",
-    "prime": "cottage1",
-    "audio": "audio/cottage1.wav",
+    "target": "glapm",
+    "prime": "dollar",
+    "audio": "audio/dollar.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "sminsh",
-    "prime": "couch",
-    "audio": "audio/couch.wav",
+    "target": "glaps",
+    "prime": "tomato",
+    "audio": "audio/tomato.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "smots",
-    "prime": "crack",
-    "audio": "audio/crack.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "smupk",
-    "prime": "account1",
-    "audio": "audio/account1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "snatk",
+    "target": "gleach",
     "prime": "age1",
     "audio": "audio/age1.wav",
     "prime_type": "pseudoword"
   },
   {
+    "target": "glief",
+    "prime": "meal",
+    "audio": "audio/meal.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "glont",
+    "prime": "prisoner",
+    "audio": "audio/prisoner.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "glotn",
+    "prime": "corpse1",
+    "audio": "audio/corpse1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "glung",
+    "prime": "sugar1",
+    "audio": "audio/sugar1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "gretd",
+    "prime": "tunnel",
+    "audio": "audio/tunnel.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "grigg",
+    "prime": "relief",
+    "audio": "audio/relief.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "plapb",
+    "prime": "strength",
+    "audio": "audio/strength.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "platd",
+    "prime": "bush1",
+    "audio": "audio/bush1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "plotth",
+    "prime": "survey1",
+    "audio": "audio/survey1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "protd",
+    "prime": "sand",
+    "audio": "audio/sand.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "protsh",
+    "prime": "gift1",
+    "audio": "audio/gift1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "scolve",
+    "prime": "theory1",
+    "audio": "audio/theory1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "slalm",
+    "prime": "mouth1",
+    "audio": "audio/mouth1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "slitm",
+    "prime": "budget1",
+    "audio": "audio/budget1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "slotch",
+    "prime": "hawk1",
+    "audio": "audio/hawk1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "smims",
+    "prime": "grass",
+    "audio": "audio/grass.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "sminsh",
+    "prime": "key1",
+    "audio": "audio/key1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "smots",
+    "prime": "handle",
+    "audio": "audio/handle.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "smupk",
+    "prime": "show",
+    "audio": "audio/show.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "snatk",
+    "prime": "tax1",
+    "audio": "audio/tax1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
     "target": "snopch",
-    "prime": "alarm1",
-    "audio": "audio/alarm1.wav",
+    "prime": "desire",
+    "audio": "audio/desire.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "snopt",
-    "prime": "ankle1",
-    "audio": "audio/ankle1.wav",
+    "prime": "smirk1",
+    "audio": "audio/smirk1.wav",
     "prime_type": "pseudoword"
   },
   {
@@ -271,116 +271,116 @@ const pseudowordStimuli = [
   },
   {
     "target": "spimt",
-    "prime": "baby",
-    "audio": "audio/baby.wav",
+    "prime": "trout1",
+    "audio": "audio/trout1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "splear",
-    "prime": "battle1",
-    "audio": "audio/battle1.wav",
+    "prime": "cash1",
+    "audio": "audio/cash1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "stimb",
-    "prime": "beach1",
-    "audio": "audio/beach1.wav",
+    "prime": "table1",
+    "audio": "audio/table1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "swetp",
-    "prime": "belief",
-    "audio": "audio/belief.wav",
+    "prime": "alarm1",
+    "audio": "audio/alarm1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "swint",
-    "prime": "birth1",
-    "audio": "audio/birth1.wav",
+    "prime": "trust",
+    "audio": "audio/trust.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "switm",
-    "prime": "bishop1",
-    "audio": "audio/bishop1.wav",
+    "prime": "ankle1",
+    "audio": "audio/ankle1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "thrutt",
-    "prime": "bomb1",
-    "audio": "audio/bomb1.wav",
+    "prime": "foot1",
+    "audio": "audio/foot1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "thwool",
-    "prime": "bottle",
-    "audio": "audio/bottle.wav",
+    "prime": "flaw",
+    "audio": "audio/flaw.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "trimk",
-    "prime": "brain",
-    "audio": "audio/brain.wav",
+    "prime": "pig",
+    "audio": "audio/pig.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "twapn",
+    "prime": "road",
+    "audio": "audio/road.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "twets",
     "prime": "breath",
     "audio": "audio/breath.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "twets",
-    "prime": "bridge",
-    "audio": "audio/bridge.wav",
-    "prime_type": "pseudoword"
-  },
-  {
     "target": "twopch",
-    "prime": "budget1",
-    "audio": "audio/budget1.wav",
+    "prime": "test1",
+    "audio": "audio/test1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "whigm",
+    "prime": "purpose",
+    "audio": "audio/purpose.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "whonk",
+    "prime": "effort",
+    "audio": "audio/effort.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "whotth",
     "prime": "burden",
     "audio": "audio/burden.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "whonk",
-    "prime": "bush1",
-    "audio": "audio/bush1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
-    "target": "whotth",
-    "prime": "butter1",
-    "audio": "audio/butter1.wav",
-    "prime_type": "pseudoword"
-  },
-  {
     "target": "wrigk",
-    "prime": "camp",
-    "audio": "audio/camp.wav",
+    "prime": "neck",
+    "audio": "audio/neck.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "writch",
-    "prime": "camera1",
-    "audio": "audio/camera1.wav",
+    "prime": "mile1",
+    "audio": "audio/mile1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "wronb",
-    "prime": "cancer1",
-    "audio": "audio/cancer1.wav",
+    "prime": "roof1",
+    "audio": "audio/roof1.wav",
     "prime_type": "pseudoword"
   },
   {
     "target": "wrott",
-    "prime": "car",
-    "audio": "audio/car.wav",
+    "prime": "cloud1",
+    "audio": "audio/cloud1.wav",
     "prime_type": "pseudoword"
   }
 ];
