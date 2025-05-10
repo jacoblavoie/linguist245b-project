@@ -38,6 +38,8 @@ function generateLatinSquareList(stimulusList, listIndex) {
 // Initialize jsPsych
 const jsPsych = initJsPsych({
     use_webaudio: false,
+    show_progress_bar: true,
+    auto_update_progress_bar: false,
     on_finish: function() {
       jsPsych.data.displayData();
     }
@@ -62,15 +64,91 @@ const allTrials = jsPsych.randomization.shuffle([
   ...pseudowordStimuli
 ]);
 
-// Sample 2 from each type for practice
-const practiceTrials = [
-  ...jsPsych.randomization.sampleWithoutReplacement(trialData, 2),
-  ...jsPsych.randomization.sampleWithoutReplacement(fillerStimuli, 2),
-  ...jsPsych.randomization.sampleWithoutReplacement(pseudowordStimuli, 2)
-];
+const mainBlocks = [];
+for (let i = 0; i < 8; i++) {
+  mainBlocks.push(allTrials.slice(i * 16, (i + 1) * 16));
+}
 
-// Shuffle practice trials
-const shuffledPractice = jsPsych.randomization.shuffle(practiceTrials);
+// Sample 24 total trials for practice
+const practiceTrials = jsPsych.randomization.sampleWithoutReplacement([
+  ...trialData,
+  ...fillerStimuli,
+  ...pseudowordStimuli
+], 24);
+
+// Split into 2 blocks of 12
+const practiceBlocks = [];
+for (let i = 0; i < 2; i++) {
+  practiceBlocks.push(practiceTrials.slice(i * 12, (i + 1) * 12));
+}
+
+function buildBlockTimeline(block, totalTrialsSoFar, totalTrials) {
+  return block.map((t, idx) => {
+    const progress = (totalTrialsSoFar + idx + 1) / totalTrials;
+    return [
+      {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: `<p style="font-size: 50px;">+</p>`,
+        choices: "NO_KEYS",
+        trial_duration: 300
+      },
+      {
+        type: jsPsychAudioKeyboardResponse,
+        stimulus: 'audio/beep-125033.mp3',
+        choices: "NO_KEYS",
+        trial_ends_after_audio: true
+      },
+      {
+        type: jsPsychAudioKeyboardResponse,
+        stimulus: t.audio,
+        choices: "NO_KEYS",
+        trial_ends_after_audio: true
+      },
+      {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: `<p style="font-size: 40px;">${t.target}</p>`,
+        choices: ['f', 'j'],
+        trial_duration: 1500,
+        stimulus_duration: 300,
+        data: {
+          target: t.target,
+          prime: t.prime,
+          prime_type: t.prime_type,
+          correct_response: (t.prime_type === 'unrelated') ? 'j' : 'f'
+        },
+        on_start: () => {
+          jsPsych.setProgressBar(progress);
+        },
+        on_finish: function(data){
+          data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
+        }
+      }
+    ];
+  }).flat();
+}
+
+const practiceTimeline = practiceBlocks.map((block, i) => [
+  {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `<p>Starting practice block ${i + 1} of 2. Press any key to continue.</p>`
+  },
+  ...buildBlockTimeline(block, i * 12, 24)
+]).flat();
+
+
+const trialTimeline = [
+  {
+    type: jsPsychCallFunction, 
+    func: () => jsPsych.setProgressBar(0)
+   },
+  ...mainBlocks.map((block, i) => [
+  {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `<p>Starting main block ${i + 1} of 8. Press any key to continue.</p>`
+  },
+  ...buildBlockTimeline(block, i * 16, 128)
+]).flat()];
+
 
 const preload = {
   type: jsPsychPreload,
@@ -247,79 +325,6 @@ const instructions_page2 = {
   `
 };
 
-const trialTimeline = allTrials.map(t => [
-  {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: `<p style="font-size: 50px;">+</p>`,
-    choices: "NO_KEYS",
-    trial_duration: 300
-  },
-  {
-    type: jsPsychAudioKeyboardResponse,
-    stimulus: 'audio/beep-125033.mp3',
-    choices: "NO_KEYS",
-    trial_ends_after_audio: true
-  },
-  {
-    type: jsPsychAudioKeyboardResponse,
-    stimulus: t.audio,
-    choices: "NO_KEYS",
-    trial_ends_after_audio: true
-  },
-  {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: `<p style="font-size: 40px;">${t.target}</p>`,
-    choices: ['f', 'j'],
-    trial_duration: 1500,
-    stimulus_duration: 300,
-    data: {
-      target: t.target,
-      prime: t.prime,
-      prime_type: t.prime_type,
-      correct_response: (t.prime_type === 'unrelated') ? 'j' : 'f' 
-    },
-    on_finish: function(data){
-      data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
-    }
-  }
-]).flat();
-
-const practiceTimeline = shuffledPractice.map(t => [
-  {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: `<p style="font-size: 50px;">+</p>`,
-    choices: "NO_KEYS",
-    trial_duration: 300
-  },
-  {
-    type: jsPsychAudioKeyboardResponse,
-    stimulus: 'audio/beep-125033.mp3',
-    choices: "NO_KEYS",
-    trial_ends_after_audio: true
-  },
-  {
-    type: jsPsychAudioKeyboardResponse,
-    stimulus: t.audio,
-    choices: "NO_KEYS",
-    trial_ends_after_audio: true
-  },
-  {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: `<p style="font-size: 40px;">${t.target}</p>`,
-    choices: ['f', 'j'],
-    trial_duration: 1500,
-    stimulus_duration: 300,
-    data: {
-      target: t.target,
-      prime: t.prime,
-      prime_type: t.prime_type,
-      correct_response: (t.prime_type === 'unrelated') ? 'j' : 'f'
-    },
-    on_finish: function(data){
-      data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
-    }
-  }
-]).flat();
 
 const save_data = {
   type: jsPsychPipe,
