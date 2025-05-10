@@ -1,6 +1,3 @@
-import fillerStimuli from './filler_stimuli.js';
-import pseudowordStimuli from './pseudoword_stimuli.js';
-
 const general_intro = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
