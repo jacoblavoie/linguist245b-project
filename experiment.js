@@ -5,7 +5,7 @@ const general_intro = {
     <p>This study consists of two parts:</p>
     <ol>
       <li>A short English vocabulary test to assess your language proficiency.</li>
-      <li>A main task where you will hear and see words, and judge whether they go together naturally in English.</li>
+      <li>A main task where you will hear and see words, and judge whether the word you see is a real English word.</li>
     </ol>
     <p>Each part will be explained in detail before it begins.</p>
     <p>Please make sure you're in a quiet place and can hear the audio clearly.</p>
@@ -302,14 +302,17 @@ const break_before_priming = {
 const instructions_page1 = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-    <p>Welcome to the study!</p>
-    <p>In this task, you will first see a cross, hear a beep, then hear a spoken word.</p>
-    <p>After the audio, a visual word will appear on the screen.</p>
-    <p>You will be making a decision about whether the two words are closely related to one another in English.</p>
-    <p>For example, the words "book" and "write" are closely related because you can write a book. The words "snow" and "write" are not related because you cannot write snow</p>
-    <p>To make a decision about whether each word pair is acceptable in English, press <strong>F</strong> for YES, <strong>J</strong> for NO.</p>
-    <p>Please use your best judgement. In some cases, you may think of some distant connection (e.g., you can write a poem about snow)</p>
-    <p>However, you may think of distant connections between words. For example, you might think "someone can write about snow," but you should agree that this is a stretch and they are not related to each other in general</p>
+     <p>In the following task, you will complete a <strong>lexical decision task</strong>.</p>
+    <p>Each trial will proceed as follows:</p>
+    <ol>
+      <li>You will see a cross in the center of the screen.</li>
+      <li>You will hear a short beep, followed by a spoken word.</li>
+      <li>Then, a written word will appear on the screen.</li>
+    </ol>
+    <p>Your task is to decide whether the <strong>written word</strong> is a real English word or not.</p>
+    <p>Press <strong>F</strong> if it <strong>is</strong> a real word.</p>
+    <p>Press <strong>J</strong> if it <strong>is not</strong> a real word.</p>
+    <p>Respond as quickly and accurately as you can.</p>
     <p>Press any key to continue.</p>
   `
 };
@@ -317,11 +320,9 @@ const instructions_page1 = {
 const instructions_page2 = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-    <p>Important:</p>
-    <p>The audio you hear is the <strong>second word</strong> of a possible collocation.</p>
-    <p>For example, if you see "invest" and hear "cash", you should think about whether "invest cash" is an appropriate combination of words in English.</p>
-    <p>Please respond as quickly and accurately as possible.</p>
-    <p>Press any key when you are ready to begin.</p>
+    <p>Please make sure your sound is on, as each trial includes an audio recording.</p>
+    <p>Only the written word matters for your decision — the audio is part of the trial but not something you respond to.</p>
+    <p>Press any key when you're ready to begin.</p>
   `
 };
 
