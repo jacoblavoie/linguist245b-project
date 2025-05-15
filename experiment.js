@@ -146,7 +146,7 @@ const trialTimeline = [
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `<p>Starting main block ${i + 1} of 8. Press any key to continue.</p>`
   },
-  ...buildBlockTimeline(block, i * 16, 128)
+  ...buildBlockTimeline(block, i * 16, 128),
   ...allTrials(i < mainBlocks.length - 1 ? [{
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `<p>Excellent! You have finished block ${i + 1} of 8.</p>
