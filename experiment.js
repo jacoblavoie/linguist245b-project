@@ -359,38 +359,136 @@ const thank_you = {
   `
 };
 
-var language_background_survey = {
-  type: jsPsychSurveyText,
-  preamble: '<h3>Language Background Survey</h3><p>Please answer the following questions:</p>',
+const survey_age_gender = {
+  type: jsPsychSurveyMultiChoice,
   questions: [
-    {prompt: 'What is your age?:', name: 'age', required: true},
-    {prompt: 'What is your gender?:', name: 'gender', required: true},
-    {prompt: 'What is your native language(s) (L1)?:', name: 'native_language', required: true},
-    {prompt: 'What is your country of birth:', name: 'country_birth', required: true},
-    {prompt: 'Please list any countries you have lived in and at what age you lived there.:', name: 'countries_lived', required: true},
-    {prompt: 'What is your second language (L2)?:', name: 'second_language', required: true},
-    {prompt: 'At what age were you first exposed to your L2?:', name: 'age_exposed_l2', required: true},
-    {prompt: 'At what age did you begin formal instruction in your L2?:', name: 'age_formal_l2', required: true},
-    {prompt: 'If you have lived in a country where your L2 is spoken, at what age did you live there?:', name: 'age_immersed_l2', required: true},
-    {prompt: 'On a 1–5 scale, what would you say your overall proficiency in your L2 is? 1 is not proficient at all and 5 is extremely proficient.:', name: 'current_l2_proficiency', required: true},
-    {prompt: 'What is the highest L2 proficiency you have ever achieved on a 1–5 scale?:', name: 'highest_l2_proficiency', required: true},
-    {prompt: 'Which language do you use MOST often now? (L1/L2/Equal):', name: 'language_use_most', required: true},
-    {prompt: 'Which language do you consider STRONGER? (L1/L2/Equal):', name: 'language_stronger', required: true},
-    {prompt: 'Have you studied any other languages beyond L1/L2? (Y/N):', name: 'other_languages_studied', required: true},
-    {prompt: 'If yes, list languages and proficiency levels:', name: 'other_languages_details', required: false}
+    {
+      prompt: 'What is your gender?',
+      name: 'gender',
+      options: ['Female', 'Male', 'Non-binary', 'Prefer not to say', 'Other'],
+      required: true
+    }
   ],
-  button_label: 'Continue'
+  data: { section: 'demographics_gender' }
 };
+
+const survey_age = {
+  type: jsPsychSurveyText,
+  questions: [
+    {prompt: 'What is your age?', name: 'age', required: true}
+  ],
+  data: { section: 'demographics_age' }
+};
+
+const survey_languages_birth = {
+  type: jsPsychSurveyText,
+  questions: [
+    {prompt: 'What is your native language(s) (L1)?', name: 'native_language', required: true},
+    {prompt: 'What is your country of birth?', name: 'country_birth', required: true}
+  ],
+  data: { section: 'languages_birth' }
+};
+
+const survey_residency = {
+  type: jsPsychSurveyText,
+  questions: [
+    {prompt: 'Please list any countries you have lived in and at what age you lived there.', name: 'countries_lived', required: true}
+  ],
+  data: { section: 'residency' }
+};
+
+const survey_L2 = {
+  type: jsPsychSurveyText,
+  questions: [
+    {prompt: 'What is your second language (L2)?', name: 'second_language', required: true},
+    {prompt: 'At what age were you first exposed to your L2?', name: 'age_exposed_l2', required: true},
+    {prompt: 'At what age did you begin formal instruction in your L2?', name: 'age_formal_l2', required: true},
+    {prompt: 'If you lived in a country where your L2 is spoken, at what age did you live there?', name: 'age_immersed_l2', required: true}
+  ],
+  data: { section: 'L2_history' }
+};
+
+const survey_L2_proficiency = {
+  type: jsPsychSurveyLikert,
+  questions: [
+    {
+      prompt: 'On a scale from 1 to 5, how would you rate your current overall proficiency in your L2?',
+      name: 'current_l2_proficiency',
+      labels: ['1 (Not proficient)', '2', '3', '4', '5 (Extremely proficient)'],
+      required: true
+    },
+    {
+      prompt: 'What is the highest L2 proficiency you have ever achieved?',
+      name: 'highest_l2_proficiency',
+      labels: ['1 (Not proficient)', '2', '3', '4', '5 (Extremely proficient)'],
+      required: true
+    }
+  ],
+  data: { section: 'L2_proficiency' }
+};
+
+const survey_dominance = {
+  type: jsPsychSurveyMultiChoice,
+  questions: [
+    {
+      prompt: 'Which language do you use MOST often now?',
+      name: 'language_use_most',
+      options: ['L1', 'L2', 'Equal'],
+      required: true
+    },
+    {
+      prompt: 'Which language do you consider STRONGER?',
+      name: 'language_stronger',
+      options: ['L1', 'L2', 'Equal'],
+      required: true
+    }
+  ],
+  data: { section: 'language_dominance' }
+};
+
+const survey_other_langs = {
+  type: jsPsychSurveyMultiChoice,
+  questions: [
+    {
+      prompt: 'Have you studied any other languages beyond L1/L2?',
+      name: 'other_languages_studied',
+      options: ['Yes', 'No'],
+      required: true
+    }
+  ],
+  data: { section: 'other_languages' }
+};
+
+const survey_other_langs_detail = {
+  type: jsPsychSurveyText,
+  questions: [
+    {
+      prompt: 'If yes, list languages and proficiency levels:',
+      name: 'other_languages_details',
+      required: false
+    }
+  ],
+  data: { section: 'other_languages_detail' }
+};
+
+
 
 // Run the timeline
 jsPsych.run([
   general_intro,
-  language_background_survey,  
+  survey_age_gender,
+  survey_age,
+  survey_languages_birth,
+  survey_residency,
+  survey_L2,
+  survey_L2_proficiency,
+  survey_dominance,
+  survey_other_langs,
+  survey_other_langs_detail,  
   preload,                     
   lextale_instructions,        
   ...lextale_trials,
   score_lextale,
-  save_lextale,
   break_before_priming,        
   instructions_page1,          
   instructions_page2,
