@@ -398,23 +398,101 @@ const survey_languages_birth = {
   data: { section: 'languages_birth' }
 };
 
-const survey_residency = {
-  type: jsPsychSurveyText,
+const survey_residency_check = {
+  type: jsPsychSurveyMultiChoice,
   questions: [
-    {prompt: 'Please list any countries you have lived in and at what age you lived there.', name: 'countries_lived', required: true}
+    {
+      prompt: 'Have you ever lived in a country other than your country of birth?',
+      name: 'has_lived_abroad',
+      options: ['Yes', 'No'],
+      required: true
+    }
   ],
-  data: { section: 'residency' }
+  data: { section: 'residency_check' }
 };
 
-const survey_L2 = {
+const survey_residency_details = {
   type: jsPsychSurveyText,
   questions: [
-    {prompt: 'What is your second language (L2)?', name: 'second_language', required: true},
-    {prompt: 'At what age were you first exposed to your L2?', name: 'age_exposed_l2', required: true},
-    {prompt: 'At what age did you begin formal instruction in your L2?', name: 'age_formal_l2', required: true},
-    {prompt: 'If you lived in a country where your L2 is spoken, at what age did you live there?', name: 'age_immersed_l2', required: true}
+    {
+      prompt: 'If you have lived in other countries than where you were born, please list the countries and the ages you lived there.',
+      name: 'countries_lived',
+      required: false
+    }
   ],
-  data: { section: 'L2_history' }
+  data: { section: 'residency_details' }
+};
+
+// Basic L2 information
+const survey_L2_basic = {
+  type: jsPsychSurveyText,
+  questions: [
+    {
+      prompt: 'What is your second language (L2)?',
+      name: 'second_language',
+      required: true
+    },
+    {
+      prompt: 'At what age were you first exposed to your L2 (e.g., through family, school, media, etc.)?',
+      name: 'age_exposed_l2',
+      required: true
+    }
+  ],
+  data: { section: 'L2_basic' }
+};
+
+// Formal instruction check
+const survey_L2_formal_instruction_check = {
+  type: jsPsychSurveyMultiChoice,
+  questions: [
+    {
+      prompt: 'Have you ever received formal instruction in your L2 (e.g., through school or private courses)?',
+      name: 'has_L2_formal_instruction',
+      options: ['Yes', 'No'],
+      required: true
+    }
+  ],
+  data: { section: 'L2_formal_instruction_check' }
+};
+
+// If yes, ask for age
+const survey_L2_formal_instruction_details = {
+  type: jsPsychSurveyText,
+  questions: [
+    {
+      prompt: 'If yes, at what age did you begin formal instruction in your L2?',
+      name: 'age_formal_l2',
+      required: false
+    }
+  ],
+  data: { section: 'L2_formal_instruction_details' }
+};
+
+// Immersion check
+const survey_L2_immersion_check = {
+  type: jsPsychSurveyMultiChoice,
+  questions: [
+    {
+      prompt: 'Have you ever lived in a country where your L2 is spoken as a primary language?',
+      name: 'has_L2_immersion',
+      options: ['Yes', 'No'],
+      required: true
+    }
+  ],
+  data: { section: 'L2_immersion_check' }
+};
+
+// If yes, ask for age of immersion
+const survey_L2_immersion_details = {
+  type: jsPsychSurveyText,
+  questions: [
+    {
+      prompt: 'If you have lived in a country where your L2 is spoken, which country and at what age did you live there?',
+      name: 'age_immersed_l2',
+      required: false
+    }
+  ],
+  data: { section: 'L2_immersion_details' }
 };
 
 const survey_L2_proficiency = {
@@ -480,16 +558,19 @@ const survey_other_langs_detail = {
   data: { section: 'other_languages_detail' }
 };
 
-
-
 // Run the timeline
 jsPsych.run([
   general_intro,
   survey_age_gender,
   survey_age,
   survey_languages_birth,
-  survey_residency,
-  survey_L2,
+  survey_residency_check,
+  survey_residency_details,
+  survey_L2_basic,
+  survey_L2_formal_instruction_check,
+  survey_L2_formal_instruction_details,
+  survey_L2_immersion_check,
+  survey_L2_immersion_details,
   survey_L2_proficiency,
   survey_dominance,
   survey_other_langs,
