@@ -141,13 +141,20 @@ const trialTimeline = [
     type: jsPsychCallFunction, 
     func: () => jsPsych.setProgressBar(0)
    },
-  ...mainBlocks.map((block, i) => [
+  ...mainBlocks.flatMap((block, i) => [
   {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `<p>Starting main block ${i + 1} of 8. Press any key to continue.</p>`
   },
   ...buildBlockTimeline(block, i * 16, 128)
-]).flat()];
+  ...allTrials(i < mainBlocks.length - 1 ? [{
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `<p>Excellent! You have finished block ${i + 1} of 8.</p>
+    <p>Feel free to take a 30 second break.</p>
+    <p>Press any key when you're ready to continue.</p>`
+  }] : [])
+])
+];
 
 
 const preload = {
@@ -343,6 +350,30 @@ const thank_you = {
     <p>Please save this ID for payment and/or if you need it for your records.</p>
     <p>Press any key to finish.</p>
   `
+};
+
+var language_background_survey = {
+  type: jsPsychSurveyText,
+  preamble: '<h3>Language Background Survey</h3><p>Please answer the following questions:</p>',
+  questions: [
+    {prompt: 'Name:', name: 'name', required: true},
+    {prompt: 'Age:', name: 'age', required: true},
+    {prompt: 'Gender:', name: 'gender', required: true},
+    {prompt: 'Native language(s) (L1):', name: 'native_language', required: true},
+    {prompt: 'Country of birth:', name: 'country_birth', required: true},
+    {prompt: 'Countries lived in (ages/duration):', name: 'countries_lived', required: true},
+    {prompt: 'Second Language (L2):', name: 'second_language', required: true},
+    {prompt: 'Age first exposed to L2:', name: 'age_exposed_l2', required: true},
+    {prompt: 'Age began formal instruction in L2:', name: 'age_formal_l2', required: true},
+    {prompt: 'Age immersed in L2 environment (e.g., moved abroad):', name: 'age_immersed_l2', required: true},
+    {prompt: 'Current overall L2 proficiency (1–5 scale):', name: 'current_l2_proficiency', required: true},
+    {prompt: 'Highest L2 proficiency ever achieved (1–5 scale):', name: 'highest_l2_proficiency', required: true},
+    {prompt: 'Which language do you use MOST often now? (L1/L2/Equal):', name: 'language_use_most', required: true},
+    {prompt: 'Which language do you consider STRONGER? (L1/L2/Equal):', name: 'language_stronger', required: true},
+    {prompt: 'Have you studied any other languages beyond L1/L2? (Y/N):', name: 'other_languages_studied', required: true},
+    {prompt: 'If yes, list languages and proficiency levels:', name: 'other_languages_details', required: false}
+  ],
+  button_label: 'Continue'
 };
 
 // Run the timeline
