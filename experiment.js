@@ -140,20 +140,26 @@ const trialTimeline = [
   {
     type: jsPsychCallFunction, 
     func: () => jsPsych.setProgressBar(0)
-   },
-  ...mainBlocks.flatMap((block, i) => [
-  {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: `<p>Starting main block ${i + 1} of 8. Press any key to continue.</p>`
   },
-  ...buildBlockTimeline(block, i * 16, 128),
-  ...allTrials(i < mainBlocks.length - 1 ? [{
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: `<p>Excellent! You have finished block ${i + 1} of 8.</p>
-    <p>Feel free to take a 30 second break.</p>
-    <p>Press any key when you're ready to continue.</p>`
-  }] : [])
-])
+  ...mainBlocks.flatMap((block, i) => {
+    const blockStart = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: `<p>Starting main block ${i + 1} of 8. Press any key to continue.</p>`
+    };
+
+    const trials = buildBlockTimeline(block, i * 16, 128);
+
+    const breakScreen = (i < mainBlocks.length - 1)
+      ? [{
+          type: jsPsychHtmlKeyboardResponse,
+          stimulus: `<p>Excellent! You have finished block ${i + 1} of 8.</p>
+                     <p>Feel free to take a 30 second break.</p>
+                     <p>Press any key when you're ready to continue.</p>`
+        }]
+      : [];
+
+    return [blockStart, ...trials, ...breakScreen];
+  })
 ];
 
 
