@@ -45,6 +45,14 @@ const jsPsych = initJsPsych({
   }
 });
 
+const keyMapping = Math.random() < 0.5
+  ? { yesKey: 'f', noKey: 'j', yesLabel: 'F', noLabel: 'J' }
+  : { yesKey: 'j', noKey: 'f', yesLabel: 'J', noLabel: 'F' };
+
+jsPsych.data.addProperties({
+  response_mapping: `${keyMapping.yesLabel}=YES, ${keyMapping.noLabel}=NO`
+});
+
 const subject_id = jsPsych.randomization.randomID(10);
 
 // Define my trials
@@ -59,10 +67,13 @@ jsPsych.data.addProperties({
 
 // Combine with filler and pseudoword trials
 const allTrials = jsPsych.randomization.shuffle([
-  ...trialData,
-  ...fillerStimuli,
-  ...pseudowordStimuli
+  ...trialData.map(t => ({ ...t, trial_type: 'stimulus' })),
+  ...fillerStimuli.map(t => ({ ...t, trial_type: 'filler' })),
+  ...pseudowordStimuli.map(t => ({ ...t, trial_type: 'pseudoword' }))
 ]);
+
+
+const pseudowordTargets = pseudowordStimuli.map(item => item.target);
 
 const mainBlocks = [];
 for (let i = 0; i < 8; i++) {
@@ -107,14 +118,15 @@ function buildBlockTimeline(block, totalTrialsSoFar, totalTrials) {
       {
         type: jsPsychHtmlKeyboardResponse,
         stimulus: `<p style="font-size: 40px;">${t.target}</p>`,
-        choices: ['f', 'j'],
+        choices: [keyMapping.yesKey, keyMapping.noKey],
         trial_duration: 1500,
         stimulus_duration: 300,
         data: {
           target: t.target,
           prime: t.prime,
           prime_type: t.prime_type,
-          correct_response: (t.prime_type === 'unrelated') ? 'j' : 'f'
+          trial_type: t.trial_type,
+          correct_response: t.trial_type === 'pseudoword' ? keyMapping.noKey : keyMapping.yesKey
         },
         on_start: () => {
           jsPsych.setProgressBar(progress);
@@ -166,7 +178,7 @@ const trialTimeline = [
 const preload = {
   type: jsPsychPreload,
   audio: [
-    'audio/beep-125033.mp3',
+    'audio/beep-329314.mp3',
   ...allTrials.map(t => t.audio)
 ]
 };
@@ -250,8 +262,11 @@ const lextaleStimuli = [
 // LexTALE trial generation
 const lextale_trials = lextaleStimuli.map((stim, index) => ({
   type: jsPsychHtmlKeyboardResponse,
-  stimulus: `<p style="font-size: 40px;">${stim.word}</p>`,
-  choices: ['f', 'j'],
+  stimulus: `
+  <p style="font-size: 40px;">${stim.word}</p>
+  <p style="font-size: 16px;">${keyMapping.yesLabel} = YES &nbsp;&nbsp;&nbsp; ${keyMapping.noLabel} = NO</p>
+`,
+  choices: [keyMapping.yesKey, keyMapping.noKey],
   data: {
     task: 'lextale',
     isWord: stim.isWord,
@@ -274,7 +289,8 @@ const score_lextale = {
       if (trial.isDummy) {
         return; // to skip dummies
       }
-      const correct = (trial.isWord && trial.response === 'f') || (!trial.isWord && trial.response === 'j');
+      const correct = (trial.isWord && trial.response === keyMapping.yesKey) ||
+                (!trial.isWord && trial.response === keyMapping.noKey);
       if (trial.isWord) {
         total_words++;
         if (correct) correct_words++;
@@ -296,13 +312,6 @@ const score_lextale = {
   }
 };
 
-const save_lextale = {
-  type: jsPsychPipe,
-  action: "save",
-  experiment_id: "V0uzmGtsMm82",
-  filename: `${subject_id}_lextale.csv`,
-  data_string: ()=>jsPsych.data.get().filter({ task: 'lextale' }).csv()
-};
 
 const break_before_priming = {
   type: jsPsychHtmlKeyboardResponse,
