@@ -1,15 +1,15 @@
 const general_intro = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-    <p>Welcome and thank you for participating!</p>
-    <p>This study consists of two parts:</p>
-    <ol>
-      <li>A short English vocabulary test to assess your language proficiency.</li>
-      <li>A main task where you will hear and see words, and judge whether the word you see is a real English word.</li>
-    </ol>
-    <p>Each part will be explained in detail before it begins.</p>
-    <p>Please make sure you're in a quiet place and can hear the audio clearly.</p>
-    <p>Press any key to begin the vocabulary test.</p>
+    <p>This study consists of three parts:</p>
+<ol>
+  <li>A brief survey about your language background.</li>
+  <li>An English vocabulary test.</li>
+  <li>A main task in which you will hear and see words, and decide whether the written word is a real English word.</li>
+</ol>
+<p>Each part will be introduced before it begins. Please make sure you are in a quiet environment and can hear audio clearly for the final task.</p>
+<p>Press any key to begin.</p>
+
   `
 };
 
@@ -181,6 +181,7 @@ const lextale_instructions = {
     <p>Press <strong>F</strong> for YES (real English word)</p>
     <p>Press <strong>J</strong> for NO (not a real English word)</p>
     <p>Please answer as accurately as possible. There is no time limit.</p>
+    <p>This test gives us a quick sense of your vocabulary knowledge.</p>
     <p>Press any key to begin.</p>
   `
 };
@@ -362,18 +363,17 @@ var language_background_survey = {
   type: jsPsychSurveyText,
   preamble: '<h3>Language Background Survey</h3><p>Please answer the following questions:</p>',
   questions: [
-    {prompt: 'Name:', name: 'name', required: true},
-    {prompt: 'Age:', name: 'age', required: true},
-    {prompt: 'Gender:', name: 'gender', required: true},
-    {prompt: 'Native language(s) (L1):', name: 'native_language', required: true},
-    {prompt: 'Country of birth:', name: 'country_birth', required: true},
-    {prompt: 'Countries lived in (ages/duration):', name: 'countries_lived', required: true},
-    {prompt: 'Second Language (L2):', name: 'second_language', required: true},
-    {prompt: 'Age first exposed to L2:', name: 'age_exposed_l2', required: true},
-    {prompt: 'Age began formal instruction in L2:', name: 'age_formal_l2', required: true},
-    {prompt: 'Age immersed in L2 environment (e.g., moved abroad):', name: 'age_immersed_l2', required: true},
-    {prompt: 'Current overall L2 proficiency (1–5 scale):', name: 'current_l2_proficiency', required: true},
-    {prompt: 'Highest L2 proficiency ever achieved (1–5 scale):', name: 'highest_l2_proficiency', required: true},
+    {prompt: 'What is your age?:', name: 'age', required: true},
+    {prompt: 'What is your gender?:', name: 'gender', required: true},
+    {prompt: 'What is your native language(s) (L1)?:', name: 'native_language', required: true},
+    {prompt: 'What is your country of birth:', name: 'country_birth', required: true},
+    {prompt: 'Please list any countries you have lived in and at what age you lived there.:', name: 'countries_lived', required: true},
+    {prompt: 'What is your second language (L2)?:', name: 'second_language', required: true},
+    {prompt: 'At what age were you first exposed to your L2?:', name: 'age_exposed_l2', required: true},
+    {prompt: 'At what age did you begin formal instruction in your L2?:', name: 'age_formal_l2', required: true},
+    {prompt: 'If you have lived in a country where your L2 is spoken, at what age did you live there?:', name: 'age_immersed_l2', required: true},
+    {prompt: 'On a 1–5 scale, what would you say your overall proficiency in your L2 is? 1 is not proficient at all and 5 is extremely proficient.:', name: 'current_l2_proficiency', required: true},
+    {prompt: 'What is the highest L2 proficiency you have ever achieved on a 1–5 scale?:', name: 'highest_l2_proficiency', required: true},
     {prompt: 'Which language do you use MOST often now? (L1/L2/Equal):', name: 'language_use_most', required: true},
     {prompt: 'Which language do you consider STRONGER? (L1/L2/Equal):', name: 'language_stronger', required: true},
     {prompt: 'Have you studied any other languages beyond L1/L2? (Y/N):', name: 'other_languages_studied', required: true},
@@ -383,14 +383,16 @@ var language_background_survey = {
 };
 
 // Run the timeline
-jsPsych.run([general_intro, 
-  preload,
-  lextale_instructions,
+jsPsych.run([
+  general_intro,
+  language_background_survey,  
+  preload,                     
+  lextale_instructions,        
   ...lextale_trials,
   score_lextale,
   save_lextale,
-  break_before_priming,
-  instructions_page1,
+  break_before_priming,        
+  instructions_page1,          
   instructions_page2,
   {
     type: jsPsychHtmlKeyboardResponse,
@@ -399,8 +401,9 @@ jsPsych.run([general_intro,
       <p>These are not scored and are only to help you get used to the format.</p>
       <p>Press any key to begin the practice trials.</p>
     `
-  },  
-  ...practiceTimeline, 
-  ...trialTimeline, 
-  save_data, 
-  thank_you]);
+  },
+  ...practiceTimeline,
+  ...trialTimeline,
+  save_data,
+  thank_you
+]);
