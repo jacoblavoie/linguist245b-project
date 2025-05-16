@@ -342,7 +342,7 @@ const score_lextale = {
       lextale_word_score: Math.round(word_score),
       lextale_nonword_score: Math.round(nonword_score)
     });
-    
+
     return `
       <h2>LexTALE Test Completed</h2>
       <p>Your LexTALE vocabulary score is: <strong>${Math.round(lextale_score)}%</strong></p>
@@ -432,7 +432,7 @@ const save_data = {
 };
 
 const thank_you = {
-  type: jsPsychHtmlKeyboardResponse,
+  type: jsPsychHtmlButtonResponse,
   stimulus: `
     <div style="max-width: 800px; margin: auto; text-align: left;">
       <h2>Thank You!</h2>
@@ -440,9 +440,13 @@ const thank_you = {
       <p>Your unique participant ID is:</p>
       <p style="font-size: 1.5em; font-weight: bold; margin: 1em 0;">${subject_id}</p>
       <p>Please save this ID for payment and/or your personal records.</p>
-      <p style="margin-top: 2em;">Press any key to finish and exit the study.</p>
+      <p style="margin-top: 2em;">Click below to confirm your participation and complete the study on Prolific.</p>
     </div>
-  `
+  `,
+  choices: ['Complete Study'],
+  on_finish: () => {
+    window.location.href = "https://app.prolific.com/submissions/complete?cc=C17CSC97";
+  }
 };
 
 const transition_to_survey = {
