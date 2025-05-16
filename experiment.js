@@ -5,9 +5,9 @@ const general_intro = {
       <h2>Welcome!</h2>
       <p>Thank you for participating in this study. The experiment consists of three parts:</p>
       <ol>
-        <li>A brief survey about your language background</li>
         <li>An English vocabulary test</li>
         <li>A main task in which you will hear and see words, and decide whether the written word is a real English word</li>
+        <li>A brief survey about your background</li>
       </ol>
       <p>Each part will be introduced before it begins.</p>
       <p>Please make sure you are in a quiet environment and can hear audio clearly for the final task.</p>
@@ -20,7 +20,7 @@ const practice_intro = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
     <div style="max-width: 800px; margin: auto; text-align: left;">
-      <h2>Practice Trials</h2>
+      <h2>Part 2: Practice Trials</h2>
       <p>You will now complete a few <strong>practice trials</strong> to get familiar with the task.</p>
       <p>These trials are <strong>not scored</strong> and are only to help you get used to the format.</p>
       <p style="margin-top: 2em;">Press any key to begin.</p>
@@ -205,9 +205,8 @@ const transition_to_lextale = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
     <div style="max-width: 800px; margin: auto; text-align: left;">
-      <h2>Part 2: Vocabulary Test</h2>
-      <p>You have completed the first part of the study, which asked about your language background.</p>
-      <p>You will now complete the second part: a short English vocabulary test.</p>
+      <h2>Part 1: Vocabulary Test</h2>
+      <p>You will now complete the first part of the study: a short English vocabulary test.</p>
       <p>This test is called <strong>LexTALE</strong> and helps us get a general sense of your English proficiency.</p>
       <p style="margin-top: 2em;">Press any key to continue.</p>
     </div>
@@ -338,6 +337,12 @@ const score_lextale = {
     const nonword_score = (correct_nonwords / 20) * 100;
     const lextale_score = (word_score + nonword_score) / 2;
 
+    jsPsych.data.addProperties({
+      lextale_score: Math.round(lextale_score),
+      lextale_word_score: Math.round(word_score),
+      lextale_nonword_score: Math.round(nonword_score)
+    });
+    
     return `
       <h2>LexTALE Test Completed</h2>
       <p>Your LexTALE vocabulary score is: <strong>${Math.round(lextale_score)}%</strong></p>
@@ -362,8 +367,8 @@ const instructions_page1 = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
     <div style="max-width: 800px; margin: auto; text-align: left;">
-      <h2>Lexical Decision Task</h2>
-      <p>You will now begin the third part of the study.</p>
+      <h2>Part 2: Lexical Decision Task</h2>
+      <p>You will now begin the second part of the study.</p>
       <p>Each trial will follow this sequence:</p>
       <ul>
         <li>A fixation cross (+) appears at the center of the screen.</li>
@@ -403,7 +408,7 @@ const transition_to_main_trials = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
     <div style="max-width: 800px; margin: auto; text-align: left;">
-      <h2>Main Task</h2>
+      <h2>Part 2: Main Trials</h2>
       <p>Great job on the practice trials!</p>
       <p>You will now begin the <strong>main set of trials</strong>.</p>
       <p>Remember your key assignments:</p>
@@ -440,6 +445,18 @@ const thank_you = {
   `
 };
 
+const transition_to_survey = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `
+    <div style="max-width: 800px; margin: auto; text-align: left;">
+      <h2>Part 3: Background Survey</h2>
+      <p>Thank you for completing the main tasks of the study.</p>
+      <p>We now ask you to complete a brief <strong>language background questionnaire</strong>. This will help us interpret your results.</p>
+      <p>Your responses are anonymous and will only be used for research purposes.</p>
+      <p style="margin-top: 2em;">Press any key to continue to the survey.</p>
+    </div>
+  `
+};
 
 const survey_age_gender = {
   type: jsPsychSurveyMultiChoice,
@@ -633,7 +650,20 @@ const survey_other_langs_detail = {
 
 // Run the timeline
 jsPsych.run([
-  general_intro,
+  general_intro,  
+  preload,    
+  transition_to_lextale,                 
+  lextale_instructions,        
+  ...lextale_trials,
+  score_lextale,
+  break_before_priming,        
+  instructions_page1,          
+  instructions_page2,
+  practice_intro,
+  ...practiceTimeline,
+  transition_to_main_trials,
+  ...trialTimeline,
+  transition_to_survey,
   survey_age_gender,
   survey_age,
   survey_languages_birth,
@@ -647,19 +677,7 @@ jsPsych.run([
   survey_L2_proficiency,
   survey_dominance,
   survey_other_langs,
-  survey_other_langs_detail,  
-  preload,    
-  transition_to_lextale,                 
-  lextale_instructions,        
-  ...lextale_trials,
-  score_lextale,
-  break_before_priming,        
-  instructions_page1,          
-  instructions_page2,
-  practice_intro,
-  ...practiceTimeline,
-  transition_to_main_trials,
-  ...trialTimeline,
+  survey_other_langs_detail,
   save_data,
   thank_you
 ]);
