@@ -1,15 +1,30 @@
 const general_intro = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-    <p>This study consists of three parts:</p>
-<ol>
-  <li>A brief survey about your language background.</li>
-  <li>An English vocabulary test.</li>
-  <li>A main task in which you will hear and see words, and decide whether the written word is a real English word.</li>
-</ol>
-<p>Each part will be introduced before it begins. Please make sure you are in a quiet environment and can hear audio clearly for the final task.</p>
-<p>Press any key to begin.</p>
+    <div style="max-width: 800px; margin: auto; text-align: left;">
+      <h2>Welcome!</h2>
+      <p>Thank you for participating in this study. The experiment consists of three parts:</p>
+      <ol>
+        <li>A brief survey about your language background</li>
+        <li>An English vocabulary test</li>
+        <li>A main task in which you will hear and see words, and decide whether the written word is a real English word</li>
+      </ol>
+      <p>Each part will be introduced before it begins.</p>
+      <p>Please make sure you are in a quiet environment and can hear audio clearly for the final task.</p>
+      <p style="margin-top: 2em;">Press any key to begin.</p>
+    </div>
+  `
+};
 
+const practice_intro = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `
+    <div style="max-width: 800px; margin: auto; text-align: left;">
+      <h2>Practice Trials</h2>
+      <p>You will now complete a few <strong>practice trials</strong> to get familiar with the task.</p>
+      <p>These trials are <strong>not scored</strong> and are only to help you get used to the format.</p>
+      <p style="margin-top: 2em;">Press any key to begin.</p>
+    </div>
   `
 };
 
@@ -117,11 +132,18 @@ function buildBlockTimeline(block, totalTrialsSoFar, totalTrials) {
       },
       {
         type: jsPsychHtmlKeyboardResponse,
-        stimulus: `<p style="font-size: 40px;">${t.target}</p>
-        <p style="font-size: 16px;">${keyMapping.yesLabel} = YES &nbsp;&nbsp;&nbsp; ${keyMapping.noLabel} = NO</p>`,
+        stimulus: `
+          <p id="word" style="font-size: 40px;">${t.target}</p>
+          <p style="font-size: 16px;">${keyMapping.yesLabel} = YES &nbsp;&nbsp;&nbsp; ${keyMapping.noLabel} = NO</p>
+        `,
         choices: [keyMapping.yesKey, keyMapping.noKey],
         trial_duration: 1500,
-        stimulus_duration: 300,
+        on_start: () => {
+          setTimeout(() => {
+            const wordEl = document.getElementById("word");
+            if (wordEl) wordEl.style.visibility = "hidden";
+          }, 300);
+        },
         data: {
           target: t.target,
           prime: t.prime,
@@ -129,7 +151,7 @@ function buildBlockTimeline(block, totalTrialsSoFar, totalTrials) {
           trial_type: t.trial_type,
           correct_response: t.trial_type === 'pseudoword' ? keyMapping.noKey : keyMapping.yesKey
         },
-        on_finish: function(data){
+        on_finish: function(data) {
           data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
         }
       }
@@ -177,20 +199,37 @@ const preload = {
 ]
 };
 
+const transition_to_lextale = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `
+    <div style="max-width: 800px; margin: auto; text-align: left;">
+      <h2>Part 2: Vocabulary Test</h2>
+      <p>You have completed the first part of the study, which asked about your language background.</p>
+      <p>You will now complete the second part: a short English vocabulary test.</p>
+      <p>This test is called <strong>LexTALE</strong> and helps us get a general sense of your English proficiency.</p>
+      <p style="margin-top: 2em;">Press any key to continue.</p>
+    </div>
+  `
+};
 
 const lextale_instructions = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-    <h2>LexTALE English Vocabulary Test</h2>
-    <p>In this part, you will see a series of letter strings, one at a time.</p>
-    <p>Your task is to decide whether each string is a real English word or not.</p>
-    <p>Press <strong>F</strong> for YES (real English word)</p>
-    <p>Press <strong>J</strong> for NO (not a real English word)</p>
-    <p>Please answer as accurately as possible. There is no time limit.</p>
-    <p>This test gives us a quick sense of your vocabulary knowledge.</p>
-    <p>Press any key to begin.</p>
+    <div style="max-width: 800px; margin: auto; text-align: left;">
+      <h2>LexTALE Vocabulary Test</h2>
+      <p>In this test, you will see a series of letter strings—one at a time.</p>
+      <p>Your task is to decide whether each string is a real English word.</p>
+      <p><strong>Key responses:</strong></p>
+      <ul>
+        <li><strong>${keyMapping.yesLabel}</strong> = YES (real English word)</li>
+        <li><strong>${keyMapping.noLabel}</strong> = NO (not a real English word)</li>
+      </ul>
+      <p>There is no time limit, but please try to be accurate.</p>
+      <p style="margin-top: 2em;">Press any key to begin.</p>
+    </div>
   `
 };
+
 
 // LexTALE stimuli
 const lextaleStimuli = [
@@ -305,40 +344,74 @@ const score_lextale = {
   }
 };
 
-
 const break_before_priming = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-    <p>You have completed the first part of the study.</p>
-    <p>Please take a short 30-second break if you wish.</p>
-    <p>When you are ready, press any key to continue to the second part.</p>
+    <div style="max-width: 800px; margin: auto; text-align: left;">
+      <h2>Break Time</h2>
+      <p>You have completed the first part of the study.</p>
+      <p>You may take a short <strong>30-second break</strong> before continuing.</p>
+      <p>When you’re ready, press any key to continue to the final task.</p>
+    </div>
   `
 };
 
 const instructions_page1 = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-     <p>In the following task, you will complete a <strong>lexical decision task</strong>.</p>
-    <p>Each trial will proceed as follows:</p>
-    <ol>
-      <li>You will see a cross in the center of the screen.</li>
-      <li>You will hear a short beep, followed by a spoken word.</li>
-      <li>Then, a written word will appear on the screen.</li>
-    </ol>
-    <p>Your task is to decide whether the <strong>written word</strong> is a real English word or not.</p>
-    <p>Press <strong>F</strong> if it <strong>is</strong> a real word.</p>
-    <p>Press <strong>J</strong> if it <strong>is not</strong> a real word.</p>
-    <p>Respond as quickly and accurately as you can.</p>
-    <p>Press any key to continue.</p>
+    <div style="max-width: 800px; margin: auto; text-align: left;">
+      <h2>Lexical Decision Task</h2>
+      <p>You will now begin the third part of the study.</p>
+      <p>Each trial will follow this sequence:</p>
+      <ul>
+        <li>A fixation cross (+) appears at the center of the screen.</li>
+        <li>You will hear a short beep followed by a spoken word.</li>
+        <li>A written word will appear briefly on the screen.</li>
+      </ul>
+      <p>Your task is to judge whether the <strong>written word</strong> is a real English word.</p>
+      <p style="margin-top: 1em;"><strong>Key responses:</strong></p>
+      <ul>
+        <li><strong>${keyMapping.yesLabel}</strong> = YES (real English word)</li>
+        <li><strong>${keyMapping.noLabel}</strong> = NO (not a real English word)</li>
+      </ul>
+      <p>Please respond as quickly and accurately as you can.</p>
+      <p style="margin-top: 2em;">Press any key to continue.</p>
+    </div>
   `
 };
 
 const instructions_page2 = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-    <p>Please make sure your sound is on, as each trial includes an audio recording.</p>
-    <p>Only the written word matters for your decision — the audio is part of the trial but not something you respond to.</p>
-    <p>Press any key when you're ready to begin.</p>
+    <div style="max-width: 800px; margin: auto; text-align: left;">
+      <h2>Before You Begin</h2>
+      <p>Make sure your sound is turned on.</p>
+      <p>You will hear audio during each trial, but your decision should be based only on the <strong>written word</strong> you see on the screen.</p>
+      <p><strong>Reminder:</strong></p>
+      <ul>
+        <li><strong>${keyMapping.yesLabel}</strong> = YES (real English word)</li>
+        <li><strong>${keyMapping.noLabel}</strong> = NO (not a real English word)</li>
+      </ul>
+      <p style="margin-top: 2em;">Press any key when you are ready to begin.</p>
+    </div>
+  `
+};
+
+const transition_to_main_trials = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `
+    <div style="max-width: 800px; margin: auto; text-align: left;">
+      <h2>Main Task</h2>
+      <p>Great job on the practice trials!</p>
+      <p>You will now begin the <strong>main set of trials</strong>.</p>
+      <p>Remember your key assignments:</p>
+      <ul>
+        <li><strong>${keyMapping.yesLabel}</strong> = YES (real English word)</li>
+        <li><strong>${keyMapping.noLabel}</strong> = NO (not a real English word)</li>
+      </ul>
+      <p>Try to respond as <strong>quickly and accurately</strong> as possible.</p>
+      <p style="margin-top: 2em;">Press any key to begin the main trials.</p>
+    </div>
   `
 };
 
@@ -354,12 +427,17 @@ const save_data = {
 const thank_you = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-    <p>Thank you so much for participating!</p>
-    <p>Your participant ID is: <strong>${subject_id}</strong></p>
-    <p>Please save this ID for payment and/or if you need it for your records.</p>
-    <p>Press any key to finish.</p>
+    <div style="max-width: 800px; margin: auto; text-align: left;">
+      <h2>Thank You!</h2>
+      <p>We sincerely appreciate your participation in this study.</p>
+      <p>Your unique participant ID is:</p>
+      <p style="font-size: 1.5em; font-weight: bold; margin: 1em 0;">${subject_id}</p>
+      <p>Please save this ID for payment and/or your personal records.</p>
+      <p style="margin-top: 2em;">Press any key to finish and exit the study.</p>
+    </div>
   `
 };
+
 
 const survey_age_gender = {
   type: jsPsychSurveyMultiChoice,
@@ -568,22 +646,17 @@ jsPsych.run([
   survey_dominance,
   survey_other_langs,
   survey_other_langs_detail,  
-  preload,                     
+  preload,    
+  transition_to_lextale,                 
   lextale_instructions,        
   ...lextale_trials,
   score_lextale,
   break_before_priming,        
   instructions_page1,          
   instructions_page2,
-  {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: `
-      <p>You will now complete a few <strong>practice trials</strong> to get familiar with the task.</p>
-      <p>These are not scored and are only to help you get used to the format.</p>
-      <p>Press any key to begin the practice trials.</p>
-    `
-  },
+  practice_intro,
   ...practiceTimeline,
+  transition_to_main_trials,
   ...trialTimeline,
   save_data,
   thank_you
