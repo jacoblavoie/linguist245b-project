@@ -82,10 +82,11 @@ jsPsych.data.addProperties({
 
 // Combine with filler and pseudoword trials
 const allTrials = jsPsych.randomization.shuffle([
-  ...trialData.map(t => ({ ...t, trial_type: 'stimulus' })),
-  ...fillerStimuli.map(t => ({ ...t, trial_type: 'filler' })),
-  ...pseudowordStimuli.map(t => ({ ...t, trial_type: 'pseudoword' }))
+  ...trialData.map(t => ({ ...t, trial_type: 'stimulus', stimulus_type: 'experimental' })),
+  ...fillerStimuli.map(t => ({ ...t, trial_type: 'stimulus', stimulus_type: 'filler' })),
+  ...pseudowordStimuli.map(t => ({ ...t, trial_type: 'stimulus', stimulus_type: 'pseudoword' }))
 ]);
+
 
 
 const pseudowordTargets = pseudowordStimuli.map(item => item.target);
@@ -147,9 +148,10 @@ function buildBlockTimeline(block, totalTrialsSoFar, totalTrials) {
         data: {
           target: t.target,
           prime: t.prime,
-          prime_type: t.prime_type,
+          prime_type: t.prime_type,       // e.g., literal/metaphor/unrelated
+          stimulus_type: t.stimulus_type, // experimental, filler, pseudoword
           trial_type: t.trial_type,
-          correct_response: t.trial_type === 'pseudoword' ? keyMapping.noKey : keyMapping.yesKey
+          correct_response: t.stimulus_type === 'pseudoword' ? keyMapping.noKey : keyMapping.yesKey
         },
         on_finish: function(data) {
           data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
