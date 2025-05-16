@@ -39,7 +39,7 @@ function generateLatinSquareList(stimulusList, listIndex) {
 const jsPsych = initJsPsych({
   use_webaudio: false,
   show_progress_bar: true,
-  auto_update_progress_bar: true, 
+  auto_update_progress_bar: false, 
   on_finish: function() {
     jsPsych.data.displayData();
   }
@@ -129,7 +129,7 @@ function buildBlockTimeline(block, totalTrialsSoFar, totalTrials) {
           correct_response: t.trial_type === 'pseudoword' ? keyMapping.noKey : keyMapping.yesKey
         },
         on_start: () => {
-          jsPsych.setProgressBar(progress);
+          jsPsych.progressBar.progress = (totalTrialsSoFar + idx + 1) / totalTrials;
         },
         on_finish: function(data){
           data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
