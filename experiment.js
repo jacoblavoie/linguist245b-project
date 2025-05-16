@@ -39,7 +39,7 @@ function generateLatinSquareList(stimulusList, listIndex) {
 const jsPsych = initJsPsych({
   use_webaudio: false,
   show_progress_bar: true,
-  auto_update_progress_bar: false, 
+  auto_update_progress_bar: true, 
   on_finish: function() {
     jsPsych.data.displayData();
   }
@@ -105,7 +105,7 @@ function buildBlockTimeline(block, totalTrialsSoFar, totalTrials) {
       },
       {
         type: jsPsychAudioKeyboardResponse,
-        stimulus: 'audio/beep-125033.mp3',
+        stimulus: 'audio/beep-329314.mp3',
         choices: "NO_KEYS",
         trial_ends_after_audio: true
       },
@@ -128,9 +128,6 @@ function buildBlockTimeline(block, totalTrialsSoFar, totalTrials) {
           trial_type: t.trial_type,
           correct_response: t.trial_type === 'pseudoword' ? keyMapping.noKey : keyMapping.yesKey
         },
-        on_start: () => {
-          jsPsych.progressBar.progress = (totalTrialsSoFar + idx + 1) / totalTrials;
-        },
         on_finish: function(data){
           data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
         }
@@ -149,10 +146,6 @@ const practiceTimeline = practiceBlocks.map((block, i) => [
 
 
 const trialTimeline = [
-  {
-    type: jsPsychCallFunction, 
-    func: () => jsPsych.setProgressBar(0)
-  },
   ...mainBlocks.flatMap((block, i) => {
     const blockStart = {
       type: jsPsychHtmlKeyboardResponse,
@@ -289,8 +282,7 @@ const score_lextale = {
       if (trial.isDummy) {
         return; // to skip dummies
       }
-      const correct = (trial.isWord && trial.response === keyMapping.yesKey) ||
-                (!trial.isWord && trial.response === keyMapping.noKey);
+      const correct = jsPsych.pluginAPI.compareKeys(trial.response, trial.isWord ? keyMapping.yesKey : keyMapping.noKey);
       if (trial.isWord) {
         total_words++;
         if (correct) correct_words++;
