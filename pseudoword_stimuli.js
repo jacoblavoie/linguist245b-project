@@ -1,30 +1,30 @@
 const pseudowordStimuli = [
   {
-    "target": "britb",
+    "target": "bruite",
     "prime": "ego",
     "audio": "audio/ego.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "climd",
+    "target": "calitom",
     "prime": "truth1",
     "audio": "audio/truth1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "cratth",
+    "target": "cratched",
     "prime": "planet1",
     "audio": "audio/planet1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "cretb",
+    "target": "creth",
     "prime": "foe1",
     "audio": "audio/foe1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "cretsh",
+    "target": "camerish",
     "prime": "gossip1",
     "audio": "audio/gossip1.wav",
     "prime_type": "pseudoword"
@@ -36,31 +36,31 @@ const pseudowordStimuli = [
     "prime_type": "pseudoword"
   },
   {
-    "target": "crint",
+    "target": "crainate",
     "prime": "mind",
     "audio": "audio/mind.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "cronth",
+    "target": "coraconate",
     "prime": "haste1",
     "audio": "audio/haste1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "crupd",
+    "target": "rumpsied",
     "prime": "stain",
     "audio": "audio/stain.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "crups",
+    "target": "scrupliness",
     "prime": "dome",
     "audio": "audio/dome.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "deliebe",
+    "target": "adelineate",
     "prime": "scar",
     "audio": "audio/scar.wav",
     "prime_type": "pseudoword"
@@ -72,19 +72,19 @@ const pseudowordStimuli = [
     "prime_type": "pseudoword"
   },
   {
-    "target": "dretb",
+    "target": "drivets",
     "prime": "holiday1",
     "audio": "audio/holiday1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "drimg",
+    "target": "devering",
     "prime": "emotion",
     "audio": "audio/emotion.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "drinth",
+    "target": "infortuitist",
     "prime": "topic",
     "audio": "audio/topic.wav",
     "prime_type": "pseudoword"
@@ -108,43 +108,43 @@ const pseudowordStimuli = [
     "prime_type": "pseudoword"
   },
   {
-    "target": "fritt",
+    "target": "tritted",
     "prime": "pain1",
     "audio": "audio/pain1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "glapm",
+    "target": "gliptism",
     "prime": "dollar",
     "audio": "audio/dollar.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "glaps",
+    "target": "gladies",
     "prime": "tomato",
     "audio": "audio/tomato.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "gleach",
+    "target": "lachry",
     "prime": "age1",
     "audio": "audio/age1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "glief",
+    "target": "gallite",
     "prime": "meal",
     "audio": "audio/meal.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "glont",
+    "target": "egotian",
     "prime": "prisoner",
     "audio": "audio/prisoner.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "glotn",
+    "target": "glonet",
     "prime": "corpse1",
     "audio": "audio/corpse1.wav",
     "prime_type": "pseudoword"
@@ -156,7 +156,7 @@ const pseudowordStimuli = [
     "prime_type": "pseudoword"
   },
   {
-    "target": "gretd",
+    "target": "gred",
     "prime": "tunnel",
     "audio": "audio/tunnel.wav",
     "prime_type": "pseudoword"
@@ -168,25 +168,25 @@ const pseudowordStimuli = [
     "prime_type": "pseudoword"
   },
   {
-    "target": "plapb",
+    "target": "plabet",
     "prime": "strength",
     "audio": "audio/strength.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "platd",
+    "target": "platined",
     "prime": "bush1",
     "audio": "audio/bush1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "plotth",
+    "target": "imploth",
     "prime": "survey1",
     "audio": "audio/survey1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "protd",
+    "target": "proted",
     "prime": "sand",
     "audio": "audio/sand.wav",
     "prime_type": "pseudoword"
@@ -204,25 +204,25 @@ const pseudowordStimuli = [
     "prime_type": "pseudoword"
   },
   {
-    "target": "slalm",
+    "target": "spolial",
     "prime": "mouth1",
     "audio": "audio/mouth1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "slitm",
+    "target": "sulist",
     "prime": "budget1",
     "audio": "audio/budget1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "slotch",
+    "target": "ostach",
     "prime": "hawk1",
     "audio": "audio/hawk1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "smims",
+    "target": "milames",
     "prime": "grass",
     "audio": "audio/grass.wav",
     "prime_type": "pseudoword"
@@ -234,25 +234,25 @@ const pseudowordStimuli = [
     "prime_type": "pseudoword"
   },
   {
-    "target": "smots",
+    "target": "moutes",
     "prime": "handle",
     "audio": "audio/handle.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "smupk",
+    "target": "smark",
     "prime": "show",
     "audio": "audio/show.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "snatk",
+    "target": "snate",
     "prime": "tax1",
     "audio": "audio/tax1.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "snopch",
+    "target": "nophed",
     "prime": "desire",
     "audio": "audio/desire.wav",
     "prime_type": "pseudoword"
@@ -264,7 +264,7 @@ const pseudowordStimuli = [
     "prime_type": "pseudoword"
   },
   {
-    "target": "spign",
+    "target": "pigne",
     "prime": "arm",
     "audio": "audio/arm.wav",
     "prime_type": "pseudoword"
@@ -318,13 +318,13 @@ const pseudowordStimuli = [
     "prime_type": "pseudoword"
   },
   {
-    "target": "trimk",
+    "target": "tirlike",
     "prime": "pig",
     "audio": "audio/pig.wav",
     "prime_type": "pseudoword"
   },
   {
-    "target": "twapn",
+    "target": "wappings",
     "prime": "road",
     "audio": "audio/road.wav",
     "prime_type": "pseudoword"
@@ -360,7 +360,7 @@ const pseudowordStimuli = [
     "prime_type": "pseudoword"
   },
   {
-    "target": "wrigk",
+    "target": "werling",
     "prime": "neck",
     "audio": "audio/neck.wav",
     "prime_type": "pseudoword"
@@ -378,7 +378,7 @@ const pseudowordStimuli = [
     "prime_type": "pseudoword"
   },
   {
-    "target": "wrott",
+    "target": "brotant",
     "prime": "cloud1",
     "audio": "audio/cloud1.wav",
     "prime_type": "pseudoword"
