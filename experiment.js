@@ -117,7 +117,8 @@ function buildBlockTimeline(block, totalTrialsSoFar, totalTrials) {
       },
       {
         type: jsPsychHtmlKeyboardResponse,
-        stimulus: `<p style="font-size: 40px;">${t.target}</p>`,
+        stimulus: `<p style="font-size: 40px;">${t.target}</p>
+        <p style="font-size: 16px;">${keyMapping.yesLabel} = YES &nbsp;&nbsp;&nbsp; ${keyMapping.noLabel} = NO</p>`,
         choices: [keyMapping.yesKey, keyMapping.noKey],
         trial_duration: 1500,
         stimulus_duration: 300,
