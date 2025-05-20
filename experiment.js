@@ -476,7 +476,7 @@ const thank_you = {
   `,
   choices: ['Complete Study'],
   on_finish: () => {
-    window.location.href = "https://app.prolific.com/submissions/complete?cc=C17CSC97";
+    window.location.href = "https://app.prolific.com/submissions/complete?cc=CNR46FAM";
   }
 };
 
