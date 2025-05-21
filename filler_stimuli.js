@@ -94,6 +94,78 @@ const fillerStimuli = [
     "prime": "bridge",
     "audio": "audio/bridge.wav",
     "prime_type": "filler"
+  },
+  {
+    "target": "stir",
+    "prime": "camera1",
+    "audio": "audio/camera1.wav",
+    "prime_type": "filler"
+  },
+  {
+    "target": "draw",
+    "prime": "cancer1",
+    "audio": "audio/cancer1.wav",
+    "prime_type": "filler"
+  },
+  {
+    "target": "chew",
+    "prime": "butter1",
+    "audio": "audio/butter1.wav",
+    "prime_type": "filler"
+  },
+  {
+    "target": "trim",
+    "prime": "fence",
+    "audio": "audio/fence.wav",
+    "prime_type": "filler"
+  },
+  {
+    "target": "toss",
+    "prime": "window1",
+    "audio": "audio/window1.wav",
+    "prime_type": "filler"
+  },
+  {
+    "target": "mop",
+    "prime": "floor",
+    "audio": "audio/floor.wav",
+    "prime_type": "filler"
+  },
+  {
+    "target": "type",
+    "prime": "novel",
+    "audio": "audio/novel.wav",
+    "prime_type": "filler"
+  },
+  {
+    "target": "twist",
+    "prime": "terrain",
+    "audio": "audio/terrain.wav",
+    "prime_type": "filler"
+  },
+  {
+    "target": "slice",
+    "prime": "menu",
+    "audio": "audio/menu.wav",
+    "prime_type": "filler"
+  },
+  {
+    "target": "push",
+    "prime": "van1",
+    "audio": "audio/van1.wav",
+    "prime_type": "filler"
+  },
+  {
+    "target": "wrap",
+    "prime": "kettle1",
+    "audio": "audio/kettle1.wav",
+    "prime_type": "filler"
+  },
+  {
+    "target": "tug",
+    "prime": "pattern",
+    "audio": "audio/pattern.wav",
+    "prime_type": "filler"
   }
 ];
 

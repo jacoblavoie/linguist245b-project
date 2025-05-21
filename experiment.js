@@ -111,34 +111,40 @@ jsPsych.data.addProperties({
 });
 
 
-// Combine with filler and pseudoword trials
-const allTrials = jsPsych.randomization.shuffle([
-  ...trialData.map(t => ({ ...t, trial_type: 'stimulus', stimulus_type: 'experimental' })),
-  ...fillerStimuli.map(t => ({ ...t, trial_type: 'stimulus', stimulus_type: 'filler' })),
-  ...pseudowordStimuli.map(t => ({ ...t, trial_type: 'stimulus', stimulus_type: 'pseudoword' }))
+// Sample 12 fillers and 12 pseudowords for practice
+const practiceFillers = jsPsych.randomization.sampleWithoutReplacement(fillerStimuli, 12);
+const practicePseudowords = jsPsych.randomization.sampleWithoutReplacement(pseudowordStimuli, 12);
+
+// Remove those from the main pool
+const remainingFillers = fillerStimuli.filter(f => !practiceFillers.includes(f));
+const remainingPseudowords = pseudowordStimuli.filter(p => !practicePseudowords.includes(p));
+
+// Build practice trials (24 total)
+const practiceTrials = jsPsych.randomization.shuffle([
+  ...practiceFillers.map(t => ({ ...t, trial_type: 'stimulus', stimulus_type: 'filler' })),
+  ...practicePseudowords.map(t => ({ ...t, trial_type: 'stimulus', stimulus_type: 'pseudoword' }))
 ]);
 
+// Split into 2 blocks of 12 trials each
+const practiceBlocks = [];
+for (let i = 0; i < 2; i++) {
+  practiceBlocks.push(practiceTrials.slice(i * 12, (i + 1) * 12));
+}
 
+// Create final main trial set
+const allTrials = jsPsych.randomization.shuffle([
+  ...trialData.map(t => ({ ...t, trial_type: 'stimulus', stimulus_type: 'experimental' })),
+  ...remainingFillers.map(t => ({ ...t, trial_type: 'stimulus', stimulus_type: 'filler' })),
+  ...remainingPseudowords.map(t => ({ ...t, trial_type: 'stimulus', stimulus_type: 'pseudoword' }))
+]);
 
-const pseudowordTargets = pseudowordStimuli.map(item => item.target);
-
+// Divide into 8 blocks of 16 trials
 const mainBlocks = [];
 for (let i = 0; i < 8; i++) {
   mainBlocks.push(allTrials.slice(i * 16, (i + 1) * 16));
 }
 
-// Sample 24 total trials for practice
-const practiceTrials = jsPsych.randomization.sampleWithoutReplacement([
-  ...trialData,
-  ...fillerStimuli,
-  ...pseudowordStimuli
-], 24);
-
-// Split into 2 blocks of 12
-const practiceBlocks = [];
-for (let i = 0; i < 2; i++) {
-  practiceBlocks.push(practiceTrials.slice(i * 12, (i + 1) * 12));
-}
+const pseudowordTargets = pseudowordStimuli.map(item => item.target);
 
 function buildBlockTimeline(block, totalTrialsSoFar, totalTrials) {
   return block.map((t, idx) => {

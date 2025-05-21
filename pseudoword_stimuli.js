@@ -382,6 +382,77 @@ const pseudowordStimuli = [
     "prime": "cloud1",
     "audio": "audio/cloud1.wav",
     "prime_type": "pseudoword"
+  },
+  {
+    "target": "glenter",
+    "prime": "plot1",
+    "audio": "audio/plot1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "slintered",
+    "prime": "noise1",
+    "audio": "audio/noise1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "murple",
+    "prime": "cinema1",
+    "audio": "audio/cinema1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "flanter",
+    "prime": "hotel1",
+    "audio": "audio/hotel1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "straven",
+    "prime": "winter",
+    "audio": "audio/winter.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "blanter",
+    "prime": "radio1",
+    "audio": "audio/radio1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "crebble",
+    "prime": "pine",
+    "audio": "audio/pine.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "dramble",
+    "prime": "uncle1",
+    "audio": "audio/uncle1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "grintle",
+    "prime": "voice",
+    "audio": "audio/voice.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "slorby",
+    "prime": "empire",
+    "audio": "audio/empire.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "drabble",
+    "prime": "golf1",
+    "audio": "audio/golf1.wav",
+    "prime_type": "pseudoword"
+  },
+  {
+    "target": "blacket",
+    "prime": "cave1",
+    "audio": "audio/cave1.wav",
+    "prime_type": "pseudoword"
   }
 ];
-
