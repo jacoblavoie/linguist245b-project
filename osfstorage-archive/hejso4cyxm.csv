@@ -1,0 +1,1474 @@
+"rt","stimulus","response","trial_type","trial_index","plugin_version","time_elapsed","response_mapping","subject_id","list_index","lextale_score","lextale_word_score","lextale_nonword_score","success","timeout","failed_images","failed_audio","failed_video","task","isWord","isDummy","target","prime","prime_type","stimulus_type","correct_response","correct","section","question_order"
+"2217","
+    <div style=""max-width: 800px; margin: auto; text-align: left;"">
+      <h2>STANFORD UNIVERSITY</h2>
+      <h3>Research Information Sheet</h3>
+      <p><strong>Protocol Director:</strong> Robert Hawkins<br>
+      <strong>Protocol Title:</strong> Communication and social cognition in natural audiovisual contexts<br>
+      <strong>IRB#:</strong> 77226</p>
+
+      <p><strong>DESCRIPTION:</strong> You are invited to participate in a research study about language and communication. The purpose of the research is to understand how you interact and communicate with other people in naturalistic settings as a fluent English speaker. This research will be conducted through the Prolific platform, including participants from the US, UK, and Canada. If you decide to participate in this research, you will play a communication game in a group with one or more partners.</p>
+
+      <p><strong>TIME INVOLVEMENT:</strong> The task will last the amount of time advertised on Prolific. You are free to withdraw from the study at any time.</p>
+
+      <p><strong>RISKS AND BENEFITS:</strong> You may become frustrated if your partner gets distracted, or experience discomfort if other participants in your group send text that is inappropriate for the task. We ask you to please be respectful of other participants you might be interacting with to mitigate these risks. You may also experience discomfort when being asked to discuss or challenge emotionally salient political beliefs. Study data will be stored securely, in compliance with Stanford University standards, minimizing the risk of confidentiality breach. This study advances our scientific understanding of how people communicate and collaborate in naturalistic settings. This study may lead to further insights about what can go wrong in teamwork, suggest potential interventions to overcome these barriers, and help to develop assistive technologies that collaborate with human partners. We cannot and do not guarantee or promise that you will receive any benefits from this study.</p>
+
+      <p><strong>PAYMENTS:</strong> You will receive payment in the amount advertised on Prolific. If you do not complete this study, you will receive prorated payment based on the time that you have spent. Additionally, you may be eligible for bonus payments as described in the instructions.</p>
+
+      <p><strong>PARTICIPANT’S RIGHTS:</strong> If you have read this form and have decided to participate in this project, please understand your participation is voluntary and you have the right to withdraw your consent or discontinue participation at any time without penalty or loss of benefits to which you are otherwise entitled. The alternative is not to participate. You have the right to refuse to answer particular questions. The results of this research study may be presented at scientific or professional meetings or published in scientific journals. Your individual privacy will be maintained in all published and written data resulting from the study. In accordance with scientific norms, the data from this study may be used or shared with other researchers for future research (after removing personally identifying information) without additional consent from you.</p>
+
+      <p><strong>CONTACT INFORMATION:</strong><br>
+      Questions: If you have any questions, concerns or complaints about this research, its procedures, risks and benefits, contact the Protocol Director, Robert Hawkins (<a href=""mailto:rdhawkins@stanford.edu"">rdhawkins@stanford.edu</a>, 217-549-6923).<br>
+      Independent Contact: If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at 650-723-2480 or toll free at 1-866-680-2906, or email at <a href=""mailto:irbnon-med@stanford.edu"">irbnon-med@stanford.edu</a>. You can also write to the Stanford IRB, Stanford University, 1705 El Camino Real, Palo Alto, CA 94306.</p>
+
+      <p><strong>Please save or print a copy of this page for your records.</strong></p>
+      <p>If you agree to participate in this research, click ""Continue"" below.</p>
+    </div>
+  ","0","html-button-response","0","2.1.0","2225","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"7611","
+    <div style=""max-width: 800px; margin: auto; text-align: left;"">
+      <h2>Welcome!</h2>
+      <p>Thank you for participating in this study. The experiment consists of three parts:</p>
+      <ol>
+        <li>An English vocabulary test</li>
+        <li>A main task in which you will hear and see words, and decide whether the written word is a real English word</li>
+        <li>A brief survey about your background</li>
+      </ol>
+      <p>Each part will be introduced before it begins.</p>
+      <p>Please make sure you are in a quiet environment and can hear audio clearly for the final task.</p>
+      <p style=""margin-top: 2em;"">Press any key to begin.</p>
+    </div>
+  ","h","html-keyboard-response","1","2.1.0","9840","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"","","","preload","2","2.1.0","13291","J=YES, F=NO","hejso4cyxm","0","74","83","65","true","false","[]","[]","[]","","","","","","","","","","",""
+"3891","
+    <div style=""max-width: 800px; margin: auto; text-align: left;"">
+      <h2>Part 1: Vocabulary Test</h2>
+      <p>You will now complete the first part of the study: a short English vocabulary test.</p>
+      <p>This test is called <strong>LexTALE</strong> and helps us get a general sense of your English proficiency.</p>
+      <p style=""margin-top: 2em;"">Press any key to continue.</p>
+    </div>
+  ","b","html-keyboard-response","3","2.1.0","17184","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"5804","
+    <div style=""max-width: 800px; margin: auto; text-align: left;"">
+      <h2>LexTALE Vocabulary Test</h2>
+      <p>In this test, you will see a series of letter strings—one at a time.</p>
+      <p>Your task is to decide whether each string is a real English word.</p>
+      <p><strong>Key responses:</strong></p>
+      <ul>
+        <li><strong>J</strong> = YES (real English word)</li>
+        <li><strong>F</strong> = NO (not a real English word)</li>
+      </ul>
+      <p>There is no time limit, but please try to be accurate.</p>
+      <p style=""margin-top: 2em;"">Press any key to begin.</p>
+    </div>
+  ","j","html-keyboard-response","4","2.1.0","22989","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1567","
+  <p style=""font-size: 40px;"">platery</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","5","2.1.0","24559","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","true","","","","","","","",""
+"1353","
+  <p style=""font-size: 40px;"">denial</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","6","2.1.0","25915","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","true","","","","","","","",""
+"1224","
+  <p style=""font-size: 40px;"">marrit</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","7","2.1.0","27141","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","true","","","","","","","",""
+"1456","
+  <p style=""font-size: 40px;"">bottle</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","8","2.1.0","28599","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1146","
+  <p style=""font-size: 40px;"">birst</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","9","2.1.0","29746","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"677","
+  <p style=""font-size: 40px;"">envy</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","10","2.1.0","30426","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1176","
+  <p style=""font-size: 40px;"">brang</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","11","2.1.0","31604","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"688","
+  <p style=""font-size: 40px;"">huge</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","12","2.1.0","32294","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1351","
+  <p style=""font-size: 40px;"">plove</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","13","2.1.0","33647","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"981","
+  <p style=""font-size: 40px;"">border</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","14","2.1.0","34630","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1198","
+  <p style=""font-size: 40px;"">flimsy</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","15","2.1.0","35830","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"706","
+  <p style=""font-size: 40px;"">drain</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","16","2.1.0","36537","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1517","
+  <p style=""font-size: 40px;"">twindle</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","17","2.1.0","38056","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"850","
+  <p style=""font-size: 40px;"">propose</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","18","2.1.0","38907","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1603","
+  <p style=""font-size: 40px;"">forlay</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","19","2.1.0","40512","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"714","
+  <p style=""font-size: 40px;"">tenant</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","20","2.1.0","41230","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"786","
+  <p style=""font-size: 40px;"">strain</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","21","2.1.0","42020","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1134","
+  <p style=""font-size: 40px;"">holster</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","22","2.1.0","43156","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1225","
+  <p style=""font-size: 40px;"">hinder</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","23","2.1.0","44383","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"717","
+  <p style=""font-size: 40px;"">swindle</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","24","2.1.0","45102","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1164","
+  <p style=""font-size: 40px;"">nuder</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","25","2.1.0","46268","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"1018","
+  <p style=""font-size: 40px;"">pillow</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","26","2.1.0","47287","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1676","
+  <p style=""font-size: 40px;"">shumble</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","27","2.1.0","48965","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"784","
+  <p style=""font-size: 40px;"">thirst</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","28","2.1.0","49750","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1308","
+  <p style=""font-size: 40px;"">unsail</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","29","2.1.0","51059","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"900","
+  <p style=""font-size: 40px;"">rifle</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","30","2.1.0","51961","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"718","
+  <p style=""font-size: 40px;"">mush</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","31","2.1.0","52681","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"1020","
+  <p style=""font-size: 40px;"">drench</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","32","2.1.0","53703","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"2290","
+  <p style=""font-size: 40px;"">snirt</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","33","2.1.0","55995","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"951","
+  <p style=""font-size: 40px;"">bitter</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","34","2.1.0","56950","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1109","
+  <p style=""font-size: 40px;"">pliff</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","35","2.1.0","58061","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"771","
+  <p style=""font-size: 40px;"">tablet</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","36","2.1.0","58833","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"923","
+  <p style=""font-size: 40px;"">glimmer</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","37","2.1.0","59757","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1188","
+  <p style=""font-size: 40px;"">slink</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","38","2.1.0","60947","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"972","
+  <p style=""font-size: 40px;"">clever</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","39","2.1.0","61920","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"2006","
+  <p style=""font-size: 40px;"">grum</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","40","2.1.0","63928","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"2236","
+  <p style=""font-size: 40px;"">string</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","41","2.1.0","66166","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"875","
+  <p style=""font-size: 40px;"">plim</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","42","2.1.0","67042","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"555","
+  <p style=""font-size: 40px;"">cable</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","43","2.1.0","67599","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1118","
+  <p style=""font-size: 40px;"">shrivel</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","44","2.1.0","68720","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"817","
+  <p style=""font-size: 40px;"">tarnish</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","45","2.1.0","69540","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"808","
+  <p style=""font-size: 40px;"">blim</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","46","2.1.0","70351","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"2195","
+  <p style=""font-size: 40px;"">stifle</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","47","2.1.0","72549","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1006","
+  <p style=""font-size: 40px;"">bint</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","48","2.1.0","73557","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"631","
+  <p style=""font-size: 40px;"">purple</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","49","2.1.0","74190","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1390","
+  <p style=""font-size: 40px;"">wriggle</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","50","2.1.0","75582","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1017","
+  <p style=""font-size: 40px;"">mangle</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","51","2.1.0","76602","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1033","
+  <p style=""font-size: 40px;"">shramp</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","52","2.1.0","77636","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"667","
+  <p style=""font-size: 40px;"">flirt</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","53","2.1.0","78305","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1023","
+  <p style=""font-size: 40px;"">frip</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","54","2.1.0","79330","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"590","
+  <p style=""font-size: 40px;"">tangle</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","55","2.1.0","79922","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"1159","
+  <p style=""font-size: 40px;"">crumble</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","56","2.1.0","81083","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"847","
+  <p style=""font-size: 40px;"">wrinkle</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","57","2.1.0","81931","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"865","
+  <p style=""font-size: 40px;"">slumb</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","58","2.1.0","82798","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"691","
+  <p style=""font-size: 40px;"">jungle</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","j","html-keyboard-response","59","2.1.0","83490","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","true","false","","","","","","","",""
+"882","
+  <p style=""font-size: 40px;"">frolick</p>
+  <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+","f","html-keyboard-response","60","2.1.0","84376","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","lextale","false","false","","","","","","","",""
+"2726","
+      <h2>LexTALE Test Completed</h2>
+      <p>Your LexTALE vocabulary score is: <strong>74%</strong></p>
+      <p>Press any key to continue.</p>
+    ","f","html-keyboard-response","61","2.1.0","87107","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"5999","
+    <div style=""max-width: 800px; margin: auto; text-align: left;"">
+      <h2>Break Time</h2>
+      <p>You have completed the first part of the study.</p>
+      <p>You may take a short <strong>30-second break</strong> before continuing.</p>
+      <p>When you’re ready, press any key to continue to the final task.</p>
+    </div>
+  ","j","html-keyboard-response","62","2.1.0","93109","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1381","
+    <div style=""max-width: 800px; margin: auto; text-align: left;"">
+      <h2>Part 2: Lexical Decision Task</h2>
+      <p>You will now begin the second part of the study.</p>
+      <p>Each trial will follow this sequence:</p>
+      <ul>
+        <li>A fixation cross (+) appears at the center of the screen.</li>
+        <li>You will hear a short beep followed by a spoken word.</li>
+        <li>A written word will appear briefly on the screen.</li>
+      </ul>
+      <p>Your task is to judge whether the <strong>written word</strong> is a real English word.</p>
+      <p style=""margin-top: 1em;""><strong>Key responses:</strong></p>
+      <ul>
+        <li><strong>J</strong> = YES (real English word)</li>
+        <li><strong>F</strong> = NO (not a real English word)</li>
+      </ul>
+      <p>Please respond as quickly and accurately as you can.</p>
+      <p style=""margin-top: 2em;"">Press any key to continue.</p>
+    </div>
+  ","j","html-keyboard-response","63","2.1.0","94491","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"3471","
+    <div style=""max-width: 800px; margin: auto; text-align: left;"">
+      <h2>Before You Begin</h2>
+      <p>Make sure your sound is turned on.</p>
+      <p>You will hear audio during each trial, but your decision should be based only on the <strong>written word</strong> you see on the screen.</p>
+      <p><strong>Reminder:</strong></p>
+      <ul>
+        <li><strong>J</strong> = YES (real English word)</li>
+        <li><strong>F</strong> = NO (not a real English word)</li>
+      </ul>
+      <p style=""margin-top: 2em;"">Press any key when you are ready to begin.</p>
+    </div>
+  ","j","html-keyboard-response","64","2.1.0","97964","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"2531","
+    <div style=""max-width: 800px; margin: auto; text-align: left;"">
+      <h2>Part 2: Practice Trials</h2>
+      <p>You will now complete a few <strong>practice trials</strong> to get familiar with the task.</p>
+      <p>These trials are <strong>not scored</strong> and are only to help you get used to the format.</p>
+      <p style=""margin-top: 2em;"">Press any key to begin.</p>
+    </div>
+  ","j","html-keyboard-response","65","2.1.0","100498","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"2253","<p>Starting practice block 1 of 2. Press any key to continue.</p>","j","html-keyboard-response","66","2.1.0","102754","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","67","2.1.0","103064","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","68","2.1.0","105841","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/cloud1.wav","null","audio-keyboard-response","69","2.1.0","106774","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1414","
+          <p id=""word"" style=""font-size: 40px;"">brotant</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","70","2.1.0","108190","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","brotant","cloud1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","71","2.1.0","108497","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","72","2.1.0","110057","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/kettle1.wav","null","audio-keyboard-response","73","2.1.0","110875","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"921","
+          <p id=""word"" style=""font-size: 40px;"">wrap</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","74","2.1.0","111797","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","wrap","kettle1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","75","2.1.0","112104","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","76","2.1.0","113656","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/menu.wav","null","audio-keyboard-response","77","2.1.0","114574","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"764","
+          <p id=""word"" style=""font-size: 40px;"">slice</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","78","2.1.0","115340","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","slice","menu","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","79","2.1.0","115653","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","80","2.1.0","117214","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/battle1.wav","null","audio-keyboard-response","81","2.1.0","117936","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"728","
+          <p id=""word"" style=""font-size: 40px;"">boil</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","82","2.1.0","118667","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","boil","battle1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","83","2.1.0","118980","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","84","2.1.0","120534","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/bottle.wav","null","audio-keyboard-response","85","2.1.0","121113","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","
+          <p id=""word"" style=""font-size: 40px;"">watch</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","null","html-keyboard-response","86","2.1.0","122617","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","watch","bottle","filler","filler","j","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","87","2.1.0","122925","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","88","2.1.0","124474","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/pattern.wav","null","audio-keyboard-response","89","2.1.0","125234","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1106","
+          <p id=""word"" style=""font-size: 40px;"">tug</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","90","2.1.0","126341","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","tug","pattern","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","91","2.1.0","126655","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","92","2.1.0","128216","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/pain1.wav","null","audio-keyboard-response","93","2.1.0","128695","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"940","
+          <p id=""word"" style=""font-size: 40px;"">tritted</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","94","2.1.0","129636","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","tritted","pain1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","95","2.1.0","129949","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","96","2.1.0","131496","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/bomb1.wav","null","audio-keyboard-response","97","2.1.0","131935","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"631","
+          <p id=""word"" style=""font-size: 40px;"">clean</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","98","2.1.0","132568","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","clean","bomb1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","99","2.1.0","132882","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","100","2.1.0","134436","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/vehicle1.wav","null","audio-keyboard-response","101","2.1.0","135336","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"879","
+          <p id=""word"" style=""font-size: 40px;"">dropt</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","102","2.1.0","136216","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","dropt","vehicle1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","103","2.1.0","136522","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","104","2.1.0","138075","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/dome.wav","null","audio-keyboard-response","105","2.1.0","138775","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","
+          <p id=""word"" style=""font-size: 40px;"">scrupliness</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","null","html-keyboard-response","106","2.1.0","140286","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","scrupliness","dome","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","107","2.1.0","140594","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","108","2.1.0","142157","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/meal.wav","null","audio-keyboard-response","109","2.1.0","142834","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"749","
+          <p id=""word"" style=""font-size: 40px;"">gallite</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","110","2.1.0","143585","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","gallite","meal","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","111","2.1.0","143889","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","112","2.1.0","145455","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/cash1.wav","null","audio-keyboard-response","113","2.1.0","146075","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1107","
+          <p id=""word"" style=""font-size: 40px;"">splear</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","114","2.1.0","147185","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","splear","cash1","pseudoword","pseudoword","f","false","",""
+"1710","<p>Starting practice block 2 of 2. Press any key to continue.</p>","j","html-keyboard-response","115","2.1.0","148899","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","116","2.1.0","149203","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","117","2.1.0","150756","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/birth1.wav","null","audio-keyboard-response","118","2.1.0","151575","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"653","
+          <p id=""word"" style=""font-size: 40px;"">peel</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","119","2.1.0","152229","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","peel","birth1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","120","2.1.0","152546","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","121","2.1.0","154094","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/voice.wav","null","audio-keyboard-response","122","2.1.0","154717","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"979","
+          <p id=""word"" style=""font-size: 40px;"">grintle</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","123","2.1.0","155697","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","grintle","voice","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","124","2.1.0","156017","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","125","2.1.0","157575","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/show.wav","null","audio-keyboard-response","126","2.1.0","158174","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"561","
+          <p id=""word"" style=""font-size: 40px;"">smark</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","127","2.1.0","158737","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","smark","show","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","128","2.1.0","159046","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","129","2.1.0","160596","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/handle.wav","null","audio-keyboard-response","130","2.1.0","161494","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1081","
+          <p id=""word"" style=""font-size: 40px;"">moutes</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","131","2.1.0","162577","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","moutes","handle","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","132","2.1.0","162879","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","133","2.1.0","164435","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/butter1.wav","null","audio-keyboard-response","134","2.1.0","164975","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"567","
+          <p id=""word"" style=""font-size: 40px;"">chew</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","135","2.1.0","165543","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","chew","butter1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","136","2.1.0","165849","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","137","2.1.0","167395","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/ankle1.wav","null","audio-keyboard-response","138","2.1.0","167995","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"548","
+          <p id=""word"" style=""font-size: 40px;"">kick</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","139","2.1.0","168544","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","kick","ankle1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","140","2.1.0","168848","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","141","2.1.0","170394","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/gossip1.wav","null","audio-keyboard-response","142","2.1.0","171135","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"982","
+          <p id=""word"" style=""font-size: 40px;"">camerish</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","143","2.1.0","172121","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","camerish","gossip1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","144","2.1.0","172429","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","145","2.1.0","173976","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/novel.wav","null","audio-keyboard-response","146","2.1.0","174794","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"602","
+          <p id=""word"" style=""font-size: 40px;"">type</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","147","2.1.0","175398","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","type","novel","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","148","2.1.0","175714","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","149","2.1.0","177275","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/floor.wav","null","audio-keyboard-response","150","2.1.0","178094","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"836","
+          <p id=""word"" style=""font-size: 40px;"">mop</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","151","2.1.0","178931","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","mop","floor","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","152","2.1.0","179238","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","153","2.1.0","180795","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/cancer1.wav","null","audio-keyboard-response","154","2.1.0","181455","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"622","
+          <p id=""word"" style=""font-size: 40px;"">draw</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","155","2.1.0","182078","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","draw","cancer1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","156","2.1.0","182388","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","157","2.1.0","183936","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/trout1.wav","null","audio-keyboard-response","158","2.1.0","184795","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"782","
+          <p id=""word"" style=""font-size: 40px;"">spimt</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","159","2.1.0","185579","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","spimt","trout1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","160","2.1.0","185888","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","161","2.1.0","187457","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/hawk1.wav","null","audio-keyboard-response","162","2.1.0","188154","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"774","
+          <p id=""word"" style=""font-size: 40px;"">ostach</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","163","2.1.0","188930","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","ostach","hawk1","pseudoword","pseudoword","f","true","",""
+"2135","
+    <div style=""max-width: 800px; margin: auto; text-align: left;"">
+      <h2>Part 2: Main Trials</h2>
+      <p>Great job on the practice trials!</p>
+      <p>You will now begin the <strong>main set of trials</strong>.</p>
+      <p>Remember your key assignments:</p>
+      <ul>
+        <li><strong>J</strong> = YES (real English word)</li>
+        <li><strong>F</strong> = NO (not a real English word)</li>
+      </ul>
+      <p>Try to respond as <strong>quickly and accurately</strong> as possible.</p>
+      <p style=""margin-top: 2em;"">Press any key to begin the main trials.</p>
+    </div>
+  ","f","html-keyboard-response","164","2.1.0","191066","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1832","<p>Starting main block 1 of 8. Press any key to continue.</p>","j","html-keyboard-response","165","2.1.0","192900","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","166","2.1.0","193206","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","167","2.1.0","194754","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/tomato.wav","null","audio-keyboard-response","168","2.1.0","195455","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"941","
+          <p id=""word"" style=""font-size: 40px;"">gladies</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","169","2.1.0","196397","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","gladies","tomato","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","170","2.1.0","196714","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","171","2.1.0","198275","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/show.wav","null","audio-keyboard-response","172","2.1.0","198815","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"525","
+          <p id=""word"" style=""font-size: 40px;"">hold</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","173","2.1.0","199342","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","hold","show","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","174","2.1.0","199661","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","175","2.1.0","201215","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/dollar.wav","null","audio-keyboard-response","176","2.1.0","201635","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"850","
+          <p id=""word"" style=""font-size: 40px;"">gliptism</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","177","2.1.0","202487","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","gliptism","dollar","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","178","2.1.0","202795","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","179","2.1.0","204355","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/budget1.wav","null","audio-keyboard-response","180","2.1.0","204995","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"504","
+          <p id=""word"" style=""font-size: 40px;"">cut</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","181","2.1.0","205500","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","cut","budget1","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","182","2.1.0","205806","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","183","2.1.0","207355","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/account1.wav","null","audio-keyboard-response","184","2.1.0","208095","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"578","
+          <p id=""word"" style=""font-size: 40px;"">paint</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","185","2.1.0","208674","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","paint","account1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","186","2.1.0","208976","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","187","2.1.0","210533","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/life1.wav","null","audio-keyboard-response","188","2.1.0","211135","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"987","
+          <p id=""word"" style=""font-size: 40px;"">flimch</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","189","2.1.0","212124","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","flimch","life1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","190","2.1.0","212427","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","191","2.1.0","213975","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/empire.wav","null","audio-keyboard-response","192","2.1.0","214855","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"828","
+          <p id=""word"" style=""font-size: 40px;"">slorby</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","193","2.1.0","215685","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","slorby","empire","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","194","2.1.0","216005","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","195","2.1.0","217555","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/prisoner.wav","null","audio-keyboard-response","196","2.1.0","218114","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1009","
+          <p id=""word"" style=""font-size: 40px;"">egotian</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","197","2.1.0","219125","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","egotian","prisoner","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","198","2.1.0","219432","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","199","2.1.0","220995","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/topic.wav","null","audio-keyboard-response","200","2.1.0","221615","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","
+          <p id=""word"" style=""font-size: 40px;"">infortuitist</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","null","html-keyboard-response","201","2.1.0","223118","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","infortuitist","topic","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","202","2.1.0","223432","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","203","2.1.0","224994","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/pain1.wav","null","audio-keyboard-response","204","2.1.0","225435","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"509","
+          <p id=""word"" style=""font-size: 40px;"">sell</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","205","2.1.0","225945","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","sell","pain1","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","206","2.1.0","226255","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","207","2.1.0","227817","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/roof1.wav","null","audio-keyboard-response","208","2.1.0","228415","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"469","
+          <p id=""word"" style=""font-size: 40px;"">construct</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","209","2.1.0","228885","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","construct","roof1","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","210","2.1.0","229204","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","211","2.1.0","230754","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/goal.wav","null","audio-keyboard-response","212","2.1.0","231194","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"544","
+          <p id=""word"" style=""font-size: 40px;"">support</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","213","2.1.0","231739","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","support","goal","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","214","2.1.0","232048","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","215","2.1.0","233596","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/theory1.wav","null","audio-keyboard-response","216","2.1.0","234315","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"961","
+          <p id=""word"" style=""font-size: 40px;"">scolve</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","217","2.1.0","235277","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","scolve","theory1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","218","2.1.0","235593","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","219","2.1.0","237155","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/sand.wav","null","audio-keyboard-response","220","2.1.0","237834","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"953","
+          <p id=""word"" style=""font-size: 40px;"">proted</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","221","2.1.0","238789","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","proted","sand","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","222","2.1.0","239098","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","223","2.1.0","240655","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/tunnel.wav","null","audio-keyboard-response","224","2.1.0","241115","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"664","
+          <p id=""word"" style=""font-size: 40px;"">grasp</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","225","2.1.0","241781","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","grasp","tunnel","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","226","2.1.0","242087","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","227","2.1.0","243635","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/chance.wav","null","audio-keyboard-response","228","2.1.0","244335","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"991","
+          <p id=""word"" style=""font-size: 40px;"">seize</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","229","2.1.0","245327","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","seize","chance","metaphor","experimental","j","true","",""
+"2649","<p>Excellent! You have finished block 1 of 8.</p>
+                     <p>Feel free to take a 30 second break.</p>
+                     <p>Press any key when you're ready to continue.</p>","f","html-keyboard-response","230","2.1.0","247978","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1111","<p>Starting main block 2 of 8. Press any key to continue.</p>","f","html-keyboard-response","231","2.1.0","249090","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","232","2.1.0","249399","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","233","2.1.0","250957","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/relief.wav","null","audio-keyboard-response","234","2.1.0","251675","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"870","
+          <p id=""word"" style=""font-size: 40px;"">grigg</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","235","2.1.0","252547","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","grigg","relief","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","236","2.1.0","252849","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","237","2.1.0","254393","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/foe1.wav","null","audio-keyboard-response","238","2.1.0","254914","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"642","
+          <p id=""word"" style=""font-size: 40px;"">conquer</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","239","2.1.0","255557","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","conquer","foe1","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","240","2.1.0","255864","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","241","2.1.0","257419","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/church1.wav","null","audio-keyboard-response","242","2.1.0","258175","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"539","
+          <p id=""word"" style=""font-size: 40px;"">cover</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","243","2.1.0","258715","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","cover","church1","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","244","2.1.0","259026","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","245","2.1.0","260576","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/emotion.wav","null","audio-keyboard-response","246","2.1.0","261496","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1016","
+          <p id=""word"" style=""font-size: 40px;"">devering</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","247","2.1.0","262515","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","devering","emotion","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","248","2.1.0","262834","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","249","2.1.0","264397","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/plot1.wav","null","audio-keyboard-response","250","2.1.0","265015","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"976","
+          <p id=""word"" style=""font-size: 40px;"">glenter</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","251","2.1.0","265992","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","glenter","plot1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","252","2.1.0","266300","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","253","2.1.0","267855","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/test1.wav","null","audio-keyboard-response","254","2.1.0","268474","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"660","
+          <p id=""word"" style=""font-size: 40px;"">twopch</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","255","2.1.0","269136","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","twopch","test1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","256","2.1.0","269441","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","257","2.1.0","270996","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/haste1.wav","null","audio-keyboard-response","258","2.1.0","271634","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"826","
+          <p id=""word"" style=""font-size: 40px;"">coraconate</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","259","2.1.0","272462","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","coraconate","haste1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","260","2.1.0","272773","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","261","2.1.0","274333","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/voice.wav","null","audio-keyboard-response","262","2.1.0","274914","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","
+          <p id=""word"" style=""font-size: 40px;"">flood</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","null","html-keyboard-response","263","2.1.0","276430","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","flood","voice","unrelated","experimental","j","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","264","2.1.0","276732","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","265","2.1.0","278295","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/pine.wav","null","audio-keyboard-response","266","2.1.0","278834","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"815","
+          <p id=""word"" style=""font-size: 40px;"">crebble</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","267","2.1.0","279650","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","crebble","pine","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","268","2.1.0","279964","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","269","2.1.0","281513","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/ego.wav","null","audio-keyboard-response","270","2.1.0","282273","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"860","
+          <p id=""word"" style=""font-size: 40px;"">bruite</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","271","2.1.0","283135","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","bruite","ego","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","272","2.1.0","283450","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","273","2.1.0","284994","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/effort.wav","null","audio-keyboard-response","274","2.1.0","285614","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"742","
+          <p id=""word"" style=""font-size: 40px;"">whonk</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","275","2.1.0","286357","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","whonk","effort","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","276","2.1.0","286673","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","277","2.1.0","288235","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/bush1.wav","null","audio-keyboard-response","278","2.1.0","288755","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"471","
+          <p id=""word"" style=""font-size: 40px;"">run</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","279","2.1.0","289227","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","run","bush1","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","280","2.1.0","289536","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","281","2.1.0","291094","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/survey1.wav","null","audio-keyboard-response","282","2.1.0","291855","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"558","
+          <p id=""word"" style=""font-size: 40px;"">release</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","283","2.1.0","292415","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","release","survey1","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","284","2.1.0","292730","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","285","2.1.0","294276","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/foot1.wav","null","audio-keyboard-response","286","2.1.0","294895","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"839","
+          <p id=""word"" style=""font-size: 40px;"">thrutt</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","287","2.1.0","295735","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","thrutt","foot1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","288","2.1.0","296040","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","289","2.1.0","297595","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/camera1.wav","null","audio-keyboard-response","290","2.1.0","298135","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"519","
+          <p id=""word"" style=""font-size: 40px;"">bring</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","291","2.1.0","298655","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","bring","camera1","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","292","2.1.0","298971","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","293","2.1.0","300535","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/mile1.wav","null","audio-keyboard-response","294","2.1.0","301075","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"982","
+          <p id=""word"" style=""font-size: 40px;"">writch</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","295","2.1.0","302059","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","writch","mile1","pseudoword","pseudoword","f","true","",""
+"884","<p>Excellent! You have finished block 2 of 8.</p>
+                     <p>Feel free to take a 30 second break.</p>
+                     <p>Press any key when you're ready to continue.</p>","j","html-keyboard-response","296","2.1.0","302945","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"394","<p>Starting main block 3 of 8. Press any key to continue.</p>","j","html-keyboard-response","297","2.1.0","303341","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","298","2.1.0","303652","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","299","2.1.0","305215","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/pig.wav","null","audio-keyboard-response","300","2.1.0","305615","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"839","
+          <p id=""word"" style=""font-size: 40px;"">tirlike</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","301","2.1.0","306458","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","tirlike","pig","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","302","2.1.0","306763","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","303","2.1.0","308317","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/cash1.wav","null","audio-keyboard-response","304","2.1.0","308875","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"502","
+          <p id=""word"" style=""font-size: 40px;"">invest</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","305","2.1.0","309381","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","invest","cash1","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","306","2.1.0","309699","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","307","2.1.0","311256","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/devil1.wav","null","audio-keyboard-response","308","2.1.0","311735","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"525","
+          <p id=""word"" style=""font-size: 40px;"">carry</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","309","2.1.0","312262","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","carry","devil1","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","310","2.1.0","312565","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","311","2.1.0","314115","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/mirror1.wav","null","audio-keyboard-response","312","2.1.0","314596","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"492","
+          <p id=""word"" style=""font-size: 40px;"">fight</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","313","2.1.0","315090","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","fight","mirror1","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","314","2.1.0","315399","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","315","2.1.0","316956","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/tunnel.wav","null","audio-keyboard-response","316","2.1.0","317374","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"630","
+          <p id=""word"" style=""font-size: 40px;"">gred</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","317","2.1.0","318006","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","gred","tunnel","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","318","2.1.0","318318","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","319","2.1.0","319875","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/neck.wav","null","audio-keyboard-response","320","2.1.0","320476","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1210","
+          <p id=""word"" style=""font-size: 40px;"">werling</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","321","2.1.0","321688","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","werling","neck","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","322","2.1.0","322000","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","323","2.1.0","323556","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/enemy1.wav","null","audio-keyboard-response","324","2.1.0","324295","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"663","
+          <p id=""word"" style=""font-size: 40px;"">defeat</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","325","2.1.0","324960","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","defeat","enemy1","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","326","2.1.0","325274","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","327","2.1.0","326835","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/sand.wav","null","audio-keyboard-response","328","2.1.0","327475","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"851","
+          <p id=""word"" style=""font-size: 40px;"">possess</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","329","2.1.0","328328","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","possess","sand","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","330","2.1.0","328633","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","331","2.1.0","330197","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/belief.wav","null","audio-keyboard-response","332","2.1.0","331073","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"581","
+          <p id=""word"" style=""font-size: 40px;"">share</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","333","2.1.0","331657","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","share","belief","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","334","2.1.0","331967","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","335","2.1.0","333515","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/cinema1.wav","null","audio-keyboard-response","336","2.1.0","334174","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"634","
+          <p id=""word"" style=""font-size: 40px;"">grow</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","337","2.1.0","334809","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","grow","cinema1","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","338","2.1.0","335125","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","339","2.1.0","336675","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/roof1.wav","null","audio-keyboard-response","340","2.1.0","337197","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"745","
+          <p id=""word"" style=""font-size: 40px;"">wronb</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","341","2.1.0","337945","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","wronb","roof1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","342","2.1.0","338256","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","343","2.1.0","339815","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/emotion.wav","null","audio-keyboard-response","344","2.1.0","340456","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"616","
+          <p id=""word"" style=""font-size: 40px;"">bury</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","345","2.1.0","341076","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","bury","emotion","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","346","2.1.0","341380","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","347","2.1.0","342935","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/ankle1.wav","null","audio-keyboard-response","348","2.1.0","343455","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"461","
+          <p id=""word"" style=""font-size: 40px;"">hurt</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","349","2.1.0","343918","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","hurt","ankle1","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","350","2.1.0","344224","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","351","2.1.0","345775","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/grass.wav","null","audio-keyboard-response","352","2.1.0","346515","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"803","
+          <p id=""word"" style=""font-size: 40px;"">milames</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","353","2.1.0","347322","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","milames","grass","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","354","2.1.0","347632","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","355","2.1.0","349195","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/account1.wav","null","audio-keyboard-response","356","2.1.0","349875","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"562","
+          <p id=""word"" style=""font-size: 40px;"">open</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","357","2.1.0","350440","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","open","account1","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","358","2.1.0","350752","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","359","2.1.0","352313","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/mind.wav","null","audio-keyboard-response","360","2.1.0","352955","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1011","
+          <p id=""word"" style=""font-size: 40px;"">crainate</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","361","2.1.0","353967","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","crainate","mind","pseudoword","pseudoword","f","true","",""
+"1273","<p>Excellent! You have finished block 3 of 8.</p>
+                     <p>Feel free to take a 30 second break.</p>
+                     <p>Press any key when you're ready to continue.</p>","f","html-keyboard-response","362","2.1.0","355244","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1429","<p>Starting main block 4 of 8. Press any key to continue.</p>","j","html-keyboard-response","363","2.1.0","356677","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","364","2.1.0","356990","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","365","2.1.0","358535","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/brain.wav","null","audio-keyboard-response","366","2.1.0","359074","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"475","
+          <p id=""word"" style=""font-size: 40px;"">throw</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","367","2.1.0","359551","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","throw","brain","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","368","2.1.0","359857","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","369","2.1.0","361415","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/camp.wav","null","audio-keyboard-response","370","2.1.0","362015","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"548","
+          <p id=""word"" style=""font-size: 40px;"">touch</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","371","2.1.0","362565","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","touch","camp","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","372","2.1.0","362875","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","373","2.1.0","364435","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/pig.wav","null","audio-keyboard-response","374","2.1.0","364795","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"460","
+          <p id=""word"" style=""font-size: 40px;"">feed</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","375","2.1.0","365257","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","feed","pig","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","376","2.1.0","365559","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","377","2.1.0","367115","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/camera1.wav","null","audio-keyboard-response","378","2.1.0","367595","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"555","
+          <p id=""word"" style=""font-size: 40px;"">stir</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","379","2.1.0","368151","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","stir","camera1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","380","2.1.0","368474","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","381","2.1.0","370037","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/smirk1.wav","null","audio-keyboard-response","382","2.1.0","370816","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"871","
+          <p id=""word"" style=""font-size: 40px;"">snopt</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","383","2.1.0","371688","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","snopt","smirk1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","384","2.1.0","371997","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","385","2.1.0","373556","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/age1.wav","null","audio-keyboard-response","386","2.1.0","374155","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"497","
+          <p id=""word"" style=""font-size: 40px;"">bake</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","387","2.1.0","374654","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","bake","age1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","388","2.1.0","374956","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","389","2.1.0","376516","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/tax1.wav","null","audio-keyboard-response","390","2.1.0","377176","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1240","
+          <p id=""word"" style=""font-size: 40px;"">snate</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","391","2.1.0","378418","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","snate","tax1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","392","2.1.0","378729","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","393","2.1.0","380275","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/size1.wav","null","audio-keyboard-response","394","2.1.0","381075","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"528","
+          <p id=""word"" style=""font-size: 40px;"">clear</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","395","2.1.0","381605","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","clear","size1","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","396","2.1.0","381909","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","397","2.1.0","383455","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/alarm1.wav","null","audio-keyboard-response","398","2.1.0","384095","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"473","
+          <p id=""word"" style=""font-size: 40px;"">lock</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","399","2.1.0","384570","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","lock","alarm1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","400","2.1.0","384879","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","401","2.1.0","386436","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/gift1.wav","null","audio-keyboard-response","402","2.1.0","386954","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"836","
+          <p id=""word"" style=""font-size: 40px;"">protsh</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","403","2.1.0","387792","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","protsh","gift1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","404","2.1.0","388095","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","405","2.1.0","389655","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/pizza1.wav","null","audio-keyboard-response","406","2.1.0","390455","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"576","
+          <p id=""word"" style=""font-size: 40px;"">devour</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","407","2.1.0","391032","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","devour","pizza1","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","408","2.1.0","391343","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","409","2.1.0","392896","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/scar.wav","null","audio-keyboard-response","410","2.1.0","393535","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1148","
+          <p id=""word"" style=""font-size: 40px;"">adelineate</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","411","2.1.0","394685","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","adelineate","scar","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","412","2.1.0","394989","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","413","2.1.0","396535","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/baby.wav","null","audio-keyboard-response","414","2.1.0","397234","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"562","
+          <p id=""word"" style=""font-size: 40px;"">lift</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","415","2.1.0","397797","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","lift","baby","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","416","2.1.0","398105","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","417","2.1.0","399656","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/budget1.wav","null","audio-keyboard-response","418","2.1.0","400255","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"712","
+          <p id=""word"" style=""font-size: 40px;"">sulist</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","419","2.1.0","400968","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","sulist","budget1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","420","2.1.0","401276","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","421","2.1.0","402835","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/mouth1.wav","null","audio-keyboard-response","422","2.1.0","403635","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"531","
+          <p id=""word"" style=""font-size: 40px;"">close</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","423","2.1.0","404167","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","close","mouth1","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","424","2.1.0","404477","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","425","2.1.0","406036","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/heart1.wav","null","audio-keyboard-response","426","2.1.0","406715","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"638","
+          <p id=""word"" style=""font-size: 40px;"">dralm</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","427","2.1.0","407354","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","dralm","heart1","pseudoword","pseudoword","f","true","",""
+"688","<p>Excellent! You have finished block 4 of 8.</p>
+                     <p>Feel free to take a 30 second break.</p>
+                     <p>Press any key when you're ready to continue.</p>","f","html-keyboard-response","428","2.1.0","408044","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"425","<p>Starting main block 5 of 8. Press any key to continue.</p>","f","html-keyboard-response","429","2.1.0","408470","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","430","2.1.0","408779","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","431","2.1.0","410335","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/winter.wav","null","audio-keyboard-response","432","2.1.0","410955","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"825","
+          <p id=""word"" style=""font-size: 40px;"">straven</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","433","2.1.0","411785","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","straven","winter","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","434","2.1.0","412098","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","435","2.1.0","413656","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/breath.wav","null","audio-keyboard-response","436","2.1.0","414274","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"832","
+          <p id=""word"" style=""font-size: 40px;"">twets</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","437","2.1.0","415108","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","twets","breath","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","438","2.1.0","415428","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","439","2.1.0","416974","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/holiday1.wav","null","audio-keyboard-response","440","2.1.0","417695","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"935","
+          <p id=""word"" style=""font-size: 40px;"">drivets</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","441","2.1.0","418631","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","drivets","holiday1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","442","2.1.0","418941","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","443","2.1.0","420495","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/survey1.wav","null","audio-keyboard-response","444","2.1.0","421214","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"823","
+          <p id=""word"" style=""font-size: 40px;"">imploth</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","445","2.1.0","422038","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","imploth","survey1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","446","2.1.0","422349","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","447","2.1.0","423895","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/gift1.wav","null","audio-keyboard-response","448","2.1.0","424355","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"474","
+          <p id=""word"" style=""font-size: 40px;"">give</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","449","2.1.0","424830","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","give","gift1","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","450","2.1.0","425146","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","451","2.1.0","426695","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/cave1.wav","null","audio-keyboard-response","452","2.1.0","427295","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"665","
+          <p id=""word"" style=""font-size: 40px;"">blacket</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","453","2.1.0","427962","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","blacket","cave1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","454","2.1.0","428278","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","455","2.1.0","429835","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/flaw.wav","null","audio-keyboard-response","456","2.1.0","430555","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"615","
+          <p id=""word"" style=""font-size: 40px;"">hide</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","457","2.1.0","431171","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","hide","flaw","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","458","2.1.0","431478","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","459","2.1.0","433036","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/pine.wav","null","audio-keyboard-response","460","2.1.0","433515","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"958","
+          <p id=""word"" style=""font-size: 40px;"">weave</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","461","2.1.0","434475","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","weave","pine","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","462","2.1.0","434784","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","463","2.1.0","436334","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/fear.wav","null","audio-keyboard-response","464","2.1.0","436914","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"582","
+          <p id=""word"" style=""font-size: 40px;"">spread</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","465","2.1.0","437498","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","spread","fear","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","466","2.1.0","437810","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","467","2.1.0","439357","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/noise1.wav","null","audio-keyboard-response","468","2.1.0","440035","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1123","
+          <p id=""word"" style=""font-size: 40px;"">slintered</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","469","2.1.0","441161","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","slintered","noise1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","470","2.1.0","441468","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","471","2.1.0","443017","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/belief.wav","null","audio-keyboard-response","472","2.1.0","443636","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"485","
+          <p id=""word"" style=""font-size: 40px;"">read</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","473","2.1.0","444125","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","read","belief","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","474","2.1.0","444439","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","475","2.1.0","445995","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/bridge.wav","null","audio-keyboard-response","476","2.1.0","446594","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"387","
+          <p id=""word"" style=""font-size: 40px;"">crack</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","477","2.1.0","446983","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","crack","bridge","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","478","2.1.0","447296","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","479","2.1.0","448855","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/golf1.wav","null","audio-keyboard-response","480","2.1.0","449474","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1045","
+          <p id=""word"" style=""font-size: 40px;"">drabble</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","481","2.1.0","450521","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","drabble","golf1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","482","2.1.0","450826","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","483","2.1.0","452377","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/uncle1.wav","null","audio-keyboard-response","484","2.1.0","452915","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"784","
+          <p id=""word"" style=""font-size: 40px;"">dramble</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","485","2.1.0","453701","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","dramble","uncle1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","486","2.1.0","454020","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","487","2.1.0","455576","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/flaw.wav","null","audio-keyboard-response","488","2.1.0","456195","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"938","
+          <p id=""word"" style=""font-size: 40px;"">thwool</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","489","2.1.0","457135","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","thwool","flaw","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","490","2.1.0","457450","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","491","2.1.0","458995","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/van1.wav","null","audio-keyboard-response","492","2.1.0","459534","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"467","
+          <p id=""word"" style=""font-size: 40px;"">push</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","493","2.1.0","460003","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","push","van1","filler","filler","j","true","",""
+"719","<p>Excellent! You have finished block 5 of 8.</p>
+                     <p>Feel free to take a 30 second break.</p>
+                     <p>Press any key when you're ready to continue.</p>","j","html-keyboard-response","494","2.1.0","460724","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"232","<p>Starting main block 6 of 8. Press any key to continue.</p>","j","html-keyboard-response","495","2.1.0","460959","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","496","2.1.0","461266","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","497","2.1.0","462817","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/trust.wav","null","audio-keyboard-response","498","2.1.0","463516","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"841","
+          <p id=""word"" style=""font-size: 40px;"">swint</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","499","2.1.0","464359","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","swint","trust","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","500","2.1.0","464676","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","501","2.1.0","466235","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/desire.wav","null","audio-keyboard-response","502","2.1.0","466895","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"696","
+          <p id=""word"" style=""font-size: 40px;"">nophed</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","503","2.1.0","467593","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","nophed","desire","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","504","2.1.0","467904","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","505","2.1.0","469456","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/sugar1.wav","null","audio-keyboard-response","506","2.1.0","470015","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"534","
+          <p id=""word"" style=""font-size: 40px;"">approach</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","507","2.1.0","470551","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","approach","sugar1","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","508","2.1.0","470858","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","509","2.1.0","472417","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/sugar1.wav","null","audio-keyboard-response","510","2.1.0","472895","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"703","
+          <p id=""word"" style=""font-size: 40px;"">glung</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","511","2.1.0","473601","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","glung","sugar1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","512","2.1.0","473911","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","513","2.1.0","475455","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beach1.wav","null","audio-keyboard-response","514","2.1.0","476096","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"527","
+          <p id=""word"" style=""font-size: 40px;"">drive</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","515","2.1.0","476627","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","drive","beach1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","516","2.1.0","476939","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","517","2.1.0","478495","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/hotel1.wav","null","audio-keyboard-response","518","2.1.0","479155","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"400","
+          <p id=""word"" style=""font-size: 40px;"">flanter</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","519","2.1.0","479557","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","flanter","hotel1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","520","2.1.0","479863","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","521","2.1.0","481415","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/window1.wav","null","audio-keyboard-response","522","2.1.0","482075","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"521","
+          <p id=""word"" style=""font-size: 40px;"">toss</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","523","2.1.0","482598","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","toss","window1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","524","2.1.0","482904","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","525","2.1.0","484455","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/bishop1.wav","null","audio-keyboard-response","526","2.1.0","485095","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"782","
+          <p id=""word"" style=""font-size: 40px;"">play</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","527","2.1.0","485878","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","play","bishop1","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","528","2.1.0","486187","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","529","2.1.0","487735","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/stain.wav","null","audio-keyboard-response","530","2.1.0","488435","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"562","
+          <p id=""word"" style=""font-size: 40px;"">wipe</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","531","2.1.0","488999","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","wipe","stain","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","532","2.1.0","489311","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","533","2.1.0","490875","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/road.wav","null","audio-keyboard-response","534","2.1.0","491355","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"699","
+          <p id=""word"" style=""font-size: 40px;"">wappings</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","535","2.1.0","492056","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","wappings","road","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","536","2.1.0","492362","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","537","2.1.0","493917","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/demon1.wav","null","audio-keyboard-response","538","2.1.0","494454","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"834","
+          <p id=""word"" style=""font-size: 40px;"">wrestle</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","539","2.1.0","495290","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","wrestle","demon1","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","540","2.1.0","495601","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","541","2.1.0","497155","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/key1.wav","null","audio-keyboard-response","542","2.1.0","497555","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"520","
+          <p id=""word"" style=""font-size: 40px;"">sminsh</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","543","2.1.0","498076","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","sminsh","key1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","544","2.1.0","498389","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","545","2.1.0","499935","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/planet1.wav","null","audio-keyboard-response","546","2.1.0","500575","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"487","
+          <p id=""word"" style=""font-size: 40px;"">save</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","547","2.1.0","501065","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","save","planet1","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","548","2.1.0","501377","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","549","2.1.0","502935","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/weight1.wav","null","audio-keyboard-response","550","2.1.0","503515","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"882","
+          <p id=""word"" style=""font-size: 40px;"">crimsh</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","551","2.1.0","504398","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","crimsh","weight1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","552","2.1.0","504709","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","553","2.1.0","506256","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/mouth1.wav","null","audio-keyboard-response","554","2.1.0","506820","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"843","
+          <p id=""word"" style=""font-size: 40px;"">spolial</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","555","2.1.0","507665","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","spolial","mouth1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","556","2.1.0","507978","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","557","2.1.0","509536","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/train.wav","null","audio-keyboard-response","558","2.1.0","510115","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"510","
+          <p id=""word"" style=""font-size: 40px;"">catch</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","559","2.1.0","510627","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","catch","train","metaphor","experimental","j","true","",""
+"721","<p>Excellent! You have finished block 6 of 8.</p>
+                     <p>Feel free to take a 30 second break.</p>
+                     <p>Press any key when you're ready to continue.</p>","j","html-keyboard-response","560","2.1.0","511349","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"188","<p>Starting main block 7 of 8. Press any key to continue.</p>","j","html-keyboard-response","561","2.1.0","511538","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","562","2.1.0","511854","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","563","2.1.0","513415","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/age1.wav","null","audio-keyboard-response","564","2.1.0","513955","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"691","
+          <p id=""word"" style=""font-size: 40px;"">lachry</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","565","2.1.0","514647","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","lachry","age1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","566","2.1.0","514956","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","567","2.1.0","516516","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/breath.wav","null","audio-keyboard-response","568","2.1.0","517078","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"857","
+          <p id=""word"" style=""font-size: 40px;"">pack</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","569","2.1.0","517936","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","pack","breath","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","570","2.1.0","518246","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","571","2.1.0","519794","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/ship.wav","null","audio-keyboard-response","572","2.1.0","520575","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1052","
+          <p id=""word"" style=""font-size: 40px;"">scrap</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","573","2.1.0","521628","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","scrap","ship","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","574","2.1.0","521933","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","575","2.1.0","523495","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/truth1.wav","null","audio-keyboard-response","576","2.1.0","524094","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"652","
+          <p id=""word"" style=""font-size: 40px;"">calitom</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","577","2.1.0","524748","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","calitom","truth1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","578","2.1.0","525056","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","579","2.1.0","526618","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/bush1.wav","null","audio-keyboard-response","580","2.1.0","527075","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"1024","
+          <p id=""word"" style=""font-size: 40px;"">platined</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","581","2.1.0","528102","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","platined","bush1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","582","2.1.0","528407","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","583","2.1.0","529956","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/corpse1.wav","null","audio-keyboard-response","584","2.1.0","530655","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"839","
+          <p id=""word"" style=""font-size: 40px;"">glonet</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","585","2.1.0","531495","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","glonet","corpse1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","586","2.1.0","531801","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","587","2.1.0","533355","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/terrain.wav","null","audio-keyboard-response","588","2.1.0","533995","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"532","
+          <p id=""word"" style=""font-size: 40px;"">twist</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","589","2.1.0","534530","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","twist","terrain","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","590","2.1.0","534835","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","591","2.1.0","536396","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/purpose.wav","null","audio-keyboard-response","592","2.1.0","537135","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"647","
+          <p id=""word"" style=""font-size: 40px;"">whigm</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","593","2.1.0","537783","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","whigm","purpose","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","594","2.1.0","538100","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","595","2.1.0","539654","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/client1.wav","null","audio-keyboard-response","596","2.1.0","540394","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"523","
+          <p id=""word"" style=""font-size: 40px;"">land</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","597","2.1.0","540919","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","land","client1","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","598","2.1.0","541228","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","599","2.1.0","542774","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/alarm1.wav","null","audio-keyboard-response","600","2.1.0","543355","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"608","
+          <p id=""word"" style=""font-size: 40px;"">swetp</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","601","2.1.0","543965","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","swetp","alarm1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","602","2.1.0","544280","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","603","2.1.0","545834","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/news.wav","null","audio-keyboard-response","604","2.1.0","546536","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"687","
+          <p id=""word"" style=""font-size: 40px;"">digest</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","605","2.1.0","547224","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","digest","news","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","606","2.1.0","547532","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","607","2.1.0","549098","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/storm1.wav","null","audio-keyboard-response","608","2.1.0","549815","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"661","
+          <p id=""word"" style=""font-size: 40px;"">climb</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","609","2.1.0","550478","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","climb","storm1","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","610","2.1.0","550786","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","611","2.1.0","552335","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/key1.wav","null","audio-keyboard-response","612","2.1.0","552695","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"654","
+          <p id=""word"" style=""font-size: 40px;"">lose</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","613","2.1.0","553351","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","lose","key1","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","614","2.1.0","553666","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","615","2.1.0","555214","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/cinema1.wav","null","audio-keyboard-response","616","2.1.0","555813","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"771","
+          <p id=""word"" style=""font-size: 40px;"">murple</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","617","2.1.0","556585","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","murple","cinema1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","618","2.1.0","556890","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","619","2.1.0","558455","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/burden.wav","null","audio-keyboard-response","620","2.1.0","559015","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"796","
+          <p id=""word"" style=""font-size: 40px;"">whotth</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","621","2.1.0","559812","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","whotth","burden","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","622","2.1.0","560114","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","623","2.1.0","561673","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/strength.wav","null","audio-keyboard-response","624","2.1.0","562474","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"993","
+          <p id=""word"" style=""font-size: 40px;"">plabet</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","625","2.1.0","563468","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","plabet","strength","pseudoword","pseudoword","f","true","",""
+"666","<p>Excellent! You have finished block 7 of 8.</p>
+                     <p>Feel free to take a 30 second break.</p>
+                     <p>Press any key when you're ready to continue.</p>","f","html-keyboard-response","626","2.1.0","564135","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"315","<p>Starting main block 8 of 8. Press any key to continue.</p>","f","html-keyboard-response","627","2.1.0","564451","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","628","2.1.0","564767","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","629","2.1.0","566314","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/skin1.wav","null","audio-keyboard-response","630","2.1.0","566914","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"468","
+          <p id=""word"" style=""font-size: 40px;"">expose</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","631","2.1.0","567383","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","expose","skin1","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","632","2.1.0","567699","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","633","2.1.0","569254","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/foe1.wav","null","audio-keyboard-response","634","2.1.0","569754","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"475","
+          <p id=""word"" style=""font-size: 40px;"">creth</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","635","2.1.0","570231","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","creth","foe1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","636","2.1.0","570537","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","637","2.1.0","572097","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/promise1.wav","null","audio-keyboard-response","638","2.1.0","572794","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"559","
+          <p id=""word"" style=""font-size: 40px;"">break</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","639","2.1.0","573354","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","break","promise1","metaphor","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","640","2.1.0","573668","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","641","2.1.0","575217","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/stain.wav","null","audio-keyboard-response","642","2.1.0","575855","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"695","
+          <p id=""word"" style=""font-size: 40px;"">rumpsied</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","643","2.1.0","576552","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","rumpsied","stain","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","644","2.1.0","576859","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","645","2.1.0","578416","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/bomb1.wav","null","audio-keyboard-response","646","2.1.0","578794","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"639","
+          <p id=""word"" style=""font-size: 40px;"">drop</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","647","2.1.0","579434","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","drop","bomb1","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","648","2.1.0","579748","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","649","2.1.0","581297","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/client1.wav","null","audio-keyboard-response","650","2.1.0","581974","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"607","
+          <p id=""word"" style=""font-size: 40px;"">droothe</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","651","2.1.0","582582","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","droothe","client1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","652","2.1.0","582893","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","653","2.1.0","584454","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/arm.wav","null","audio-keyboard-response","654","2.1.0","585013","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"831","
+          <p id=""word"" style=""font-size: 40px;"">fold</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","655","2.1.0","585845","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","fold","arm","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","656","2.1.0","586147","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","657","2.1.0","587694","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/terrain.wav","null","audio-keyboard-response","658","2.1.0","588274","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"638","
+          <p id=""word"" style=""font-size: 40px;"">navigate</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","659","2.1.0","588913","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","navigate","terrain","literal","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","660","2.1.0","589217","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","661","2.1.0","590774","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/fence.wav","null","audio-keyboard-response","662","2.1.0","591455","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"564","
+          <p id=""word"" style=""font-size: 40px;"">trim</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","663","2.1.0","592021","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","trim","fence","filler","filler","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","664","2.1.0","592329","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","665","2.1.0","593876","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/planet1.wav","null","audio-keyboard-response","666","2.1.0","594455","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"680","
+          <p id=""word"" style=""font-size: 40px;"">cratched</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","667","2.1.0","595137","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","cratched","planet1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","668","2.1.0","595453","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","669","2.1.0","597014","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/ankle1.wav","null","audio-keyboard-response","670","2.1.0","597535","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"442","
+          <p id=""word"" style=""font-size: 40px;"">switm</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","671","2.1.0","597978","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","switm","ankle1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","672","2.1.0","598288","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","673","2.1.0","599834","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/radio1.wav","null","audio-keyboard-response","674","2.1.0","600474","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"975","
+          <p id=""word"" style=""font-size: 40px;"">blanter</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","675","2.1.0","601451","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","blanter","radio1","pseudoword","pseudoword","f","false","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","676","2.1.0","601758","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","677","2.1.0","603316","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/arm.wav","null","audio-keyboard-response","678","2.1.0","603855","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"768","
+          <p id=""word"" style=""font-size: 40px;"">pigne</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","679","2.1.0","604625","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","pigne","arm","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","680","2.1.0","604944","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","681","2.1.0","606496","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/table1.wav","null","audio-keyboard-response","682","2.1.0","607035","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"860","
+          <p id=""word"" style=""font-size: 40px;"">stimb</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","f","html-keyboard-response","683","2.1.0","607896","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","stimb","table1","pseudoword","pseudoword","f","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","684","2.1.0","608203","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","685","2.1.0","609755","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/noise1.wav","null","audio-keyboard-response","686","2.1.0","610355","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"526","
+          <p id=""word"" style=""font-size: 40px;"">build</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","687","2.1.0","610883","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","build","noise1","unrelated","experimental","j","true","",""
+"null","<p style=""font-size: 50px;"">+</p>","null","html-keyboard-response","688","2.1.0","611200","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/beep-329314.mp3","null","audio-keyboard-response","689","2.1.0","612757","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"null","audio/radio1.wav","null","audio-keyboard-response","690","2.1.0","613335","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"543","
+          <p id=""word"" style=""font-size: 40px;"">spend</p>
+          <p style=""font-size: 16px;"">J = YES &nbsp;&nbsp;&nbsp; F = NO</p>
+        ","j","html-keyboard-response","691","2.1.0","613880","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","spend","radio1","unrelated","experimental","j","true","",""
+"2118","
+    <div style=""max-width: 800px; margin: auto; text-align: left;"">
+      <h2>Part 3: Background Survey</h2>
+      <p>Thank you for completing the main tasks of the study.</p>
+      <p>We now ask you to complete a brief <strong>language background questionnaire</strong>. This will help us interpret your results.</p>
+      <p>Your responses are anonymous and will only be used for research purposes.</p>
+      <p style=""margin-top: 2em;"">Press any key to continue to the survey.</p>
+    </div>
+  ","j","html-keyboard-response","692","2.1.0","616000","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","",""
+"3548","","{""gender"":""Male""}","survey-multi-choice","693","2.1.0","619554","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","demographics_gender","[0]"
+"1964","","{""age"":""25""}","survey-text","694","2.1.0","621526","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","demographics_age",""
+"7890","","{""native_language"":""Polisah"",""country_birth"":""Poland""}","survey-text","695","2.1.0","629435","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","languages_birth",""
+"3283","","{""has_lived_abroad"":""Yes""}","survey-multi-choice","696","2.1.0","632721","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","residency_check","[0]"
+"9547","","{""countries_lived"":""Italy 20-24""}","survey-text","697","2.1.0","642275","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","residency_details",""
+"10155","","{""second_language"":""English"",""age_exposed_l2"":""6""}","survey-text","698","2.1.0","652434","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","L2_basic",""
+"6030","","{""has_L2_formal_instruction"":""Yes""}","survey-multi-choice","699","2.1.0","658466","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","L2_formal_instruction_check","[0]"
+"6834","","{""age_formal_l2"":""7""}","survey-text","700","2.1.0","665307","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","L2_formal_instruction_details",""
+"3347","","{""has_L2_immersion"":""No""}","survey-multi-choice","701","2.1.0","668656","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","L2_immersion_check","[0]"
+"5420","","{""age_immersed_l2"":""n/a""}","survey-text","702","2.1.0","674082","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","L2_immersion_details",""
+"6907","","{""current_l2_proficiency"":3,""highest_l2_proficiency"":3}","survey-likert","703","2.1.0","680994","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","L2_proficiency","[0,1]"
+"7397","","{""language_use_most"":""L1"",""language_stronger"":""Equal""}","survey-multi-choice","704","2.1.0","688396","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","language_dominance","[0,1]"
+"4698","","{""other_languages_studied"":""Yes""}","survey-multi-choice","705","2.1.0","693096","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","other_languages","[0]"
+"8703","","{""other_languages_details"":""Spanish B1 Italian B1""}","survey-text","706","2.1.0","701803","J=YES, F=NO","hejso4cyxm","0","74","83","65","","","","","","","","","","","","","","","other_languages_detail",""
