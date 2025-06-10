@@ -1,0 +1,454 @@
+---
+title: "Replication of 'The status of coventional metaphorical meaning in the L2 lexicon' by Werkmann Horvat, Ana & Bolognesi, Marianna & Kohl, Katrin (2021, Intercultural Pragmatics)"
+author: "Jacob LaVoie (jlavoie@stanford.edu)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format:
+  html:
+    toc: true
+    toc_depth: 3
+---
+
+<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+
+## Introduction
+
+[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.
+
+The original study by Werkmann Horvat et al. (2021) investigated how second language (L2) speakers process conventional metaphorical expressions compared to their literal counterparts, focusing on the differences between L1 and L2 lexical processing. The target finding for replication was the observed primacy of literal meaning over conventional metaphorical meaning in the L2 lexicon, as evidenced by slower reaction times in the literal condition, which was interpreted as semantic interference from the dominant literal sense of the prime/target pair. The study employed a cross-modal semantic priming paradigm with a lexical decision task, using balanced stimuli to control for frequency and contextual dominance. 
+
+This replication aims to verify the robustness of these findings, particularly the differential processing of literal and metaphorical meanings in L2 speakers. The study’s methodology, including the stimuli and experimental design, closely follows the original to ensure comparability. By replicating this work, I seek to contribute to the broader understanding of figurative language processing in L2 learners and the cognitive mechanisms underlying it.
+
+## Methods
+
+The following sections outline the methods employed in this replication.
+
+### Power Analysis
+
+Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
+
+To determine the sample sizes required for our replication, I conducted two a priori power analyses using the pwr package in R (v.1.3-0). The goal was to estimate the number of L2 participants needed to (1) detect a difference in reaction times between L1 and L2 groups and (2) detect an interaction between group and condition.
+
+#### Main Effect of Group (L1 vs. L2)
+
+Werkmann Horvat et al. (2021) report a post-hoc comparison between L1 and advanced L2 speakers with a z-value of 4.77 (p < .0001). Assuming a sample size of approximately 103 participants for that analysis, I converted the z-value to an estimated Cohen’s d = 0.94, 95% CI [0.56, 1.33], using the effectsize::z_to_d() function.
+
+Using this effect size, I ran a power analysis for a two-sample t-test with unequal group sizes. Assuming I will retain the original 48 L1 participants and recruit new L2 participants, this analysis indicates that approximately 23 L2 participants are required to detect a significant group difference with 80% power.
+
+```{r}
+library(pwr)
+pwr.t2n.test(n1 = 48, d = 0.94, power = 0.80, sig.level = 0.05)
+```
+
+#### Group × Condition Interaction
+
+Werkmann Horvat et al. (2021) also report a significant Group × Condition interaction: F(4, 177.04) = 2.53, p = .04. From this, I estimated an effect size of f² = 0.057 by converting η²:
+
+$$
+
+\eta^2 = \frac{F \cdot df_1}{F \cdot df_1 + df_2} = \frac{2.53 \cdot 4}{2.53 \cdot 4 + 177.04} \approx 0.054 \\
+f^2 = \frac{0.054}{1 - 0.054} \approx 0.057
+$$
+I used this in a multiple regression power analysis:
+
+```{r}
+pwr.f2.test(u = 4, f2 = 0.057, sig.level = 0.05, power = 0.80)
+```
+
+This yielded a required error degrees of freedom *v* ≈ 209.19, corresponding to a total sample size of approximately 213 participants to detect the interaction with 80% power.
+
+### Planned Sample
+
+Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
+
+Based on the power analysis, the sampling consisted of 165 L2 English speakers (L1 Polish). The selection criteria stipulated that Polish be the participants' first and dominant language, and that each participant currently reside in Poland. Due to the insufficient amount of L1 Croatian speakers currently operating on the crowdsourcing platform Prolific, the selection of L1 Polish speakers is based on the relative similarity in linguistic and cultural distance between Polish and Croatian relative to English, as well as the necessity to control for L1. 
+
+### Materials
+
+All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+
+The materials for this replication study closely followed those described in Werkmann Horvat et al. (2021), with all critical stimuli, procedures, and tasks replicated as precisely as possible. Below is a detailed overview of the materials used.
+
+#### Stimuli
+
+The experiment employed 48 target verbs, each paired with 144 noun primes divided into three conditions:
+
+Literal primes (e.g., "window" for the target "break"),
+Metaphorical primes (e.g., "promise" for "break"), and
+Unrelated primes (e.g., "uncle" for "break").
+
+Werkmann Horvat et al. (2020) balanced the triplets for lexical characteristics, including corpus frequency, word length, collocation frequency, and association scores, to ensure no significant differences between conditions. They subsequently conducted a norming study with L1 English speakers (n = 30) to confirm that literal (M = 6.09) and metaphorical (M = 5.92) phrases were rated equally natural on a 7 point Likert scale (p = .09). The same audio files for the primes were used, which featured a male speaker of British English.
+
+In addition to the critical stimuli, participants encountered 16 filler words and 64 pseudowords (adapted from Rastle et al., 2002) to maintain task engagement and reduce predictability. For the practice trials, 12 additional filler words and 12 pseudowords were created based using the same criteria.
+
+#### Proficiency Assessment
+
+Participants' English proficiency was assessed using the LexTale test (Lemhöfer & Broersma, 2012), a validated 60-trial lexical decision task that discriminates between intermediate (scores 60–80) and advanced (80–100) L2 speakers.
+
+#### Language Background Questionnaire
+
+The study included a language background questionnaire to collect demographic and proficiency data from participants. The questionnaire was adapted from the original study (Werkmann Horvat et al., 2021), which itself was based on a template from Sabourin et al. (2016). The collected demographic information included the age, gender, first language (L1), age of acquisition (AoA) of English, self-rated English proficiency, exposure to English (e.g., formal instruction, media consumption, immersion, family), other languages spoken (to control for multilingual influences), and at what proficiency levels.
+
+### Procedure	
+
+Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+
+The experimental procedure followed the cross-modal priming paradigm with a lexical decision task as described in Werkmann Horvat et al. (2021). Participants heard an auditory prime (a noun) followed by a written target (a verb) and were required to determine whether the target was a real English word by pressing "YES" or "NO." Each trial began with a 300 ms auditory beep, followed by the prime. After a 300 ms delay, the visual target appeared on screen for 300 ms, and participants had 1,500 ms to respond. 
+
+The experiment began with a practice phase consisting of two blocks of 12 trials each (24 trials total) to familiarize participants with the task. This was followed by the main experiment, which included eight blocks of 16 trials (128 trials total). Stimuli were distributed across three conditions—literal, metaphorical, and unrelated primes—with each target verb appearing in only one condition per participant. A Latin Square design was used to create three counterbalanced lists, ensuring that participants saw each target word in just one condition while maintaining even distribution across all conditions.
+
+
+
+### Analysis Plan
+
+Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+
+The analysis plan closely followed the statistical approach described in Werkmann Horvat et al. (2021), with identical data cleaning procedures, exclusion criteria, and model specifications. Excluded data included trials with incorrect responses (lexical decision errors), reaction times (RTs) beyond +/-2 Standard Deviations from each participant's mean (to trim outliers), participants with mismatched proficiency, and target words with excessive error rates (>20%). After these exclusions, 14.74% of trials were removed from the L2-only model, and 11.09% were excluded from the combined L1 + L2 dataset.
+
+Statistical analyses were carried out using linear mixed-effects models with the lme4 and lmerTest packages in R. Two primary models were fit. The first model included only L2 participants and specified fixed effects for condition (literal, metaphorical, unrelated) and group (intermediate vs. advanced), with random intercepts and slopes for condition by subject, and random intercepts and slopes for group by item. The second model combined L1 and L2 participants and added L1 vs. L2 group membership as a fixed effect, using the same random effects structure as the L2-only model.
+
+Hypothesis testing employed Type III Wald F-tests with Kenward-Roger approximations for degrees of freedom. Post-hoc comparisons were conducted using the emmeans package with Tukey adjustment for multiple comparisons. In the L2-only model, there were no significant main effects or interactions (all p > 0.05). In contrast, the combined model revealed a significant main effect of group (p < .0001), indicating that L1 participants were significantly faster than both L2 groups. A marginally significant interaction between condition and group (p = .04) was also observed. Post-hoc contrasts showed that L1 participants responded significantly faster in the literal and metaphorical conditions compared to the unrelated condition (p < .01), whereas advanced L2 participants exhibited a negative priming effect, responding slower in the literal condition than in the unrelated condition (p = .03).
+
+**Key analyses of interest:**
+The key analyses of interest in this replication are the effect of prime type on reaction time, the effect of proficiency on reaction time and their respective interactions for L2 participants only. 
+
+### Differences from Original Study
+
+Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+
+The primary deviation from the original study was the implementation platform. Whereas Werkmann Horvat et al. (2021) used Presentation® software on a Dell Latitude laptop with a Logitech joystick for responses, this replication was programmed in JavaScript and deployed online via GitHub. Rather than a joystick, participants responded using keyboard keys ("F" or "J") whose mapping to "YES" and "NO" were randomized across participants. The randomized keyboard assignment appeared under each stimulus for the entire 1500ms duration of each trial, so that each participant had a visual reminder for their assignment. These differences are not anticipated to make a difference; no claims in the original article privilege in-person or using a joystick instead of online and keyboard response.
+
+In terms of the analysis plan, this replication diverged from the original by treating L2 proficiency as a continuous predictor in one of the primary models. While Werkmann Horvat et al. (2021) categorized participants into proficiency groups based on arbitrary cutoffs, I opted to retain the continuous nature of the LexTALE scores in order to preserve individual differences and avoid the information loss inherent in dichotomization. Binary groupings can obscure meaningful variation within groups and rest on the assumption that L2 proficiency is a discrete construct—an assumption increasingly questioned in SLA research (Hulstijn, 2012; Ortega, 2014). By modeling LexTALE as a continuous predictor, we aimed to capture more nuanced relationships between lexical knowledge and semantic processing, and to reflect the gradient nature of language proficiency as it develops across multiple dimensions. I anticipate this will make a difference. However, not based on the claims found in the original study, but rather on those of Hulstijn (2012) and Ortega (2014). 
+
+An additional difference is that this replication study included a screening procedure to exclude novice L2 users, operationalized as participants with a LexTALE score in the lowest proficiency band or with a discrepancy of more than two levels between self-rated proficiency and LexTALE score. This exclusion was necessary given the online recruitment context, where participants of widely varying proficiency levels could enroll. In contrast, the original study recruited more selectively, where a baseline level of proficiency could be assumed. This added screening step is not anticipated to influence the outcome of the replication. Werkmann Horvat et al. (2021) reported no significant proficiency-based modulation of the priming effects, and the current study retains the full range of intermediate to advanced participants likely represented in the original sample.
+
+### Methods Addendum (Post Data Collection)
+
+You can comment this section out prior to final report with data collection.
+
+#### Actual Sample
+
+  The replication yielded 163 L2 speakers of English (L1 Polish). All participants are right-handed. The majority of participants identified as male (n = 101), followed by female (n = 57), non-binary (n = 4), and one declined to say. The average age of participants (n = 163) is 27.37 years with a standard deviation of 5.002 years. The average age of acquisition (AoA) of L2 English collected from participants (n = 140) is 8.31 years with a standard deviation of 8.8 years. The majority of participants (n = 125) have not lived outside of Poland, while 38 participants have. The most frequent countries listed include the United Kingdom (n = 15), Germany (n = 11), the Netherlands (n = 4), France (n = 3), Norway (n = 3), and the United States (n = 2). These numbers correspond to the number of participants who self-reported immersion in English (n = 18), while the majority (n = 145) did not report learning English in an immersion environment. The majority of participants (n = 145) likewise reported receiving formal instruction in English, with instruction beginning at an average age of 10.62 years (SD = 7.73). The self-reported proficiency on a 1-5 likert scale, where 1 is little to no proficiency and 5 is highly proficient, featured an average of 2.64 (i.e., intermediate proficiency) with a standard deviation of 0.71. The majority of participants (n = 122) reported that their most frequently used language is their L1, and that their L1 is their dominant language (n = 142). The majority of participants (n = 131) additionally reported that they have studied languages other than L2 English, represented by German (n = 85), Spanish (n = 34), Russian (n = 26), French (n = 24), Italian (n = 10), Japanese (n = 9), Norwegian (n = 5), and Latin (n = 4). 
+  Thirteen participants were excluded based on the rules outlined in the analysis plan. Eleven participants were excluded due to more than 25% of their trials being unusable in the analysis for featuring response times more than 2.5 standard deviations from their mean response times, response times under 200ms, too many inaccurate lexical decisions, or a combination thereof. Additionally, two participants were excluded from analysis due to LexTALE scores under 40, which indicates novice-level proficiency. Werkmann Horvat et al. excluded one participant for a large mismatch between self-reported proficiency and their LexTALE score. In this replication, such mismatches were searched for among participants. For example, a participant who reports very advanced proficiency (i.e., 5) in their language questionnaire but scores 33 (i.e., Novice) during their LexTALE task features a mismatch of more than two levels of proficiency. LexTALE scores were divided along the 1-5 scale to make these determinations, in line with Lemhöfer et al.'s (2013) instructions for interpreting LexTALE scores. No exclusions were made on this basis.
+  
+```{r}
+library(knitr)
+library(kableExtra)
+
+data <- data.frame(
+  `LexTALE Score` = c("80–100", "60–80", "40–60", "20–40", "0–20"),
+  `Self-Reported Proficiency` = c(
+    "Advanced / 5",
+    "Intermediate-High / 4",
+    "Intermediate-Low / 3",
+    "Novice-High / 2",
+    "Novice-Low / 1"
+  )
+)
+
+kable(data, caption = "LexTALE Score and Self-Reported Proficiency Mapping") %>%
+  footnote(general = "CEFR equivalents (Lemhöfer et al., 2016): Advanced = C2/C1; Intermediate-High = B2; Intermediate-Low = B1.")
+```
+
+
+#### Differences from pre-data collection methods plan
+  None.
+
+
+## Results
+
+
+### Data preparation
+
+Data preparation following the analysis plan.
+	
+```{r include=F}
+### Data Preparation
+
+#### Load Relevant Libraries and Functions
+library(tidyverse)
+library(readr)
+library(purrr)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+library(jsonlite)
+library(purrr)
+library(lmerTest)
+library(lme4)
+library(emmeans)
+library(ggeffects)
+
+#### Import data
+
+d <- read_csv("https://raw.githubusercontent.com/jacoblavoie/linguist245b-project/main/all_data.csv")
+
+#### Data exclusion / filtering
+
+# 1. Filter experimental trials only
+raw_data <- d %>%
+  filter(stimulus_type == "experimental") %>%
+  select(subject_id, lextale_score, rt, prime_type, target, correct)
+
+# 2. Convert rt to numeric and remove inaccurate lexical decisions and "NA" RTs
+clean_data <- raw_data %>%
+  mutate(rt = as.numeric(rt)) %>%
+  filter(correct == TRUE) %>%
+  filter(!is.na(rt))
+
+# 3. Remove implausible RTs 
+cut_data <- clean_data %>%
+  filter(rt > 200)
+
+# 4. Trim outliers
+trimmed_data <- cut_data %>%
+  group_by(subject_id) %>%
+  filter(abs(rt - mean(rt)) < 2.5 * sd(rt)) %>%
+  ungroup()
+
+# 5. Count remaining trials per participant
+trial_counts <- trimmed_data %>%
+  group_by(subject_id) %>%
+  summarise(n_trials = n()) %>%
+  print(n = Inf)
+
+# 6. Identify participants with fewer than 36 trials (75% of 48)
+participants_to_exclude <- trial_counts %>%
+  filter(n_trials < 36) %>%
+  pull(subject_id)
+
+# 7. Exclude these participants from data
+final_data <- trimmed_data %>%
+  filter(!subject_id %in% participants_to_exclude)
+
+# 8. Create exclusion summary
+excluded_summary <- tibble(
+  subject_id = participants_to_exclude,
+  reason = "More than 25% excluded RTs (fewer than 36 correct, valid trials)"
+)
+
+#### Survey-Based Exclusions: Proficiency Mismatch
+
+# 1. Extract and parse survey responses
+survey_df <- d %>%
+  filter(grepl("^\\{.*\\}$", response)) %>%
+  select(subject_id, lextale_score, response)
+
+survey_long <- survey_df %>%
+  mutate(parsed = map(response, fromJSON)) %>%
+  mutate(
+    question = map_chr(parsed, ~ names(.)[1]),
+    response_value = map_chr(parsed, ~ as.character(.x[[1]]))
+  ) %>%
+  select(subject_id, lextale_score, question, response_value) %>%
+  arrange(question, subject_id)
+
+# 2. Extract proficiency ratings and convert values
+proficiency_df <- survey_long %>%
+  filter(question == "current_l2_proficiency") %>%
+  mutate(
+    current_l2_proficiency = as.numeric(response_value),
+    lextale_score = as.numeric(lextale_score)
+  ) %>%
+  select(subject_id, lextale_score, current_l2_proficiency) %>%
+  drop_na()
+
+# 3. Band lextale scores and align proficiency
+proficiency_df <- proficiency_df %>%
+  mutate(
+    lextale_band = case_when(
+      lextale_score >= 80 ~ 5,
+      lextale_score >= 60 ~ 4,
+      lextale_score >= 40 ~ 3,
+      lextale_score >= 20 ~ 2,
+      TRUE ~ 1
+    ),
+    proficiency_adjusted = current_l2_proficiency + 1
+  )
+
+# 4. Flag mismatches greater than 2 levels
+proficiency_mismatch <- proficiency_df %>%
+  filter(abs(lextale_band - proficiency_adjusted) > 2)
+
+# 5. Flag participants with novice-level lextale scores (band 1 or 2)
+low_band_exclusions <- proficiency_df %>%
+  filter(lextale_band <= 2) %>%
+  distinct(subject_id) %>%
+  mutate(reason = "LexTALE score below intermediate threshold (< 40)")
+
+# 6. Create exclusion summary for mismatches
+proficiency_mismatch_exclusions <- proficiency_mismatch %>%
+  distinct(subject_id) %>%
+  mutate(reason = "Mismatch greater than 2 levels between lextale score and self-reported proficiency")
+
+# 7. Combine exclusion reasons
+survey_based_exclusions <- bind_rows(
+  proficiency_mismatch_exclusions,
+  low_band_exclusions
+)
+
+# 8. Add to cumulative exclusion list
+excluded_summary <- bind_rows(excluded_summary, survey_based_exclusions)
+
+# 9. Final list of IDs to exclude
+all_ids_to_exclude <- unique(excluded_summary$subject_id)
+
+# 10. Remove from final dataset
+final_data <- final_data %>%
+  filter(!subject_id %in% all_ids_to_exclude)
+
+#### Prepare data for analysis - create columns etc.
+
+final_data <- final_data %>%
+  mutate(
+    rt = as.numeric(rt),  # Just in case rt is not numeric already for some reason
+    prime_type = factor(prime_type, levels = c("literal", "metaphor", "unrelated")),
+    subject_id = factor(subject_id),
+    lextale_raw = as.numeric(lextale_score),
+    lextale_scaled = scale(lextale_raw)[,1],
+    proficiency_group = factor(
+      ifelse(lextale_raw > 79, "advanced", "intermediate"),
+      levels = c("intermediate", "advanced")
+    )
+  )
+```
+
+### Confirmatory analysis
+
+The analyses as specified in the analysis plan.
+
+We fit a linear mixed-effects model to examine whether prime type and lexical proficiency (as measured by LexTALE scores) predicted reaction times (RTs). The model included fixed effects for prime_type (literal, metaphor, unrelated), lextale_score (as a continuous variable), and their interaction. Random intercepts were included for both subject_id and target. 
+
+There was a significant main effect of lexical proficiency, indicating that higher LexTALE scores were associated with faster RTs, β = -2.30, SE = 0.86, t(167.60) = -2.67, p = .008. There were no significant main effects for prime type(metaphor: β = -4.68, p = .857; unrelated: β = -10.37, p = .693), and no significant interactions between proficiency and prime type (all p > .61). The model included random intercepts for participants (SD = 85.13 ms) and targets (SD = 36.35 ms). The residual standard deviation was 101.33 ms.
+```{r}
+###Combined (Advanced/Intermediate) Model with Continuous Proficiency
+model_continuous <- lmer(rt ~ prime_type * lextale_score +
+               (1 | subject_id) +
+               (1 | target),
+           data = final_data)
+summary(model_continuous)
+
+anova(model_continuous, type = 3)
+
+emmeans(model_continuous, pairwise ~ prime_type, 
+        adjust = "tukey", 
+        lmerTest.limit = 7000, 
+        pbkrtest.limit = 7000)
+```
+
+To ensure that the linearity and scaling of the LexTALE scores did not bias model estimation, I re-fit the model using a standardized (z-scored) version of the LexTALE predictor:
+```{r}
+###Combined (Advanced/Intermediate) Model with Scaled Continuous Proficiency
+model_continuous_scaled <- lmer(rt ~ prime_type * lextale_scaled +
+               (1 | subject_id) +
+               (1 | target),
+           data = final_data)
+summary(model_continuous_scaled)
+
+anova(model_continuous_scaled, type = 3)
+
+emmeans(model_continuous, pairwise ~ prime_type, 
+        adjust = "tukey", 
+        lmerTest.limit = 7000, 
+        pbkrtest.limit = 7000)
+```
+The results were virtually identical to the model using the unscaled score. The main effect of lexical proficiency remained significant, with higher proficiency predicting faster reaction times (𝛽= − 19.35, SE = 7.25, t(167.60) = -2.67, p = .008). The interactions between prime_type and lextale_scaled were again non-significant (p > .61), as were the main effects of prime_type. Since standardizing the predictor did not materially change the outcome or improve model fit (REML = 81202.4 vs. 81215.2), I proceeded with the unscaled LexTALE score for ease of interpretability in the final model.
+
+I also fit a linear mixed-effects model to investigate whether the effect of prime type varied across proficiency groups in line with Werkmann Horvat et al. (2021). The model included a fixed effect for prime_type, proficiency group (intermediate vs. advanced), and their interaction, along with random intercepts for subjects and targets.
+```{r}
+### Binary Model
+model_binary <- lmer(rt ~ prime_type * proficiency_group +
+               (1 | subject_id) +
+               (1 | target),
+           data = final_data)
+summary(model_binary)
+
+anova(model_binary, type = 3)
+
+emmeans(model_binary, pairwise ~ prime_type | proficiency_group, 
+        adjust = "tukey", 
+        lmerTest.limit = 7000, 
+        pbkrtest.limit = 7000)
+
+```
+Model results (REML = 81199.5) revealed a significant main effect of proficiency group: advanced participants responded significantly faster than intermediate participants, with an estimated difference of 40 ms (β = −40.41, SE = 20.36, t(166.44) = -1.99, p = .0488). However, there were no significant main effects of prime type and no significant interactions between prime type and proficiency group (ps > .41).
+
+The binary model thus supports a proficiency-based difference in overall response speed, but provides no evidence that the priming effect varied by group.
+
+*Side-by-side graph with original graph is ideal here*
+
+Unfortunately, Werkmann Horvat et al. did not use any graphs or figures in their publication. Nevertheless, I will present three figures below to visualize the results of the models.
+
+The bar plot presents estimated marginal means from the linear mixed-effects model examining the interaction between prime type and proficiency group. Across both groups, estimated RTs were similar across prime types (literal, metaphor, unrelated), with no significant priming effects observed. However, advanced participants consistently showed numerically faster RTs compared to intermediate participants across all prime types, mirroring the significant main effect of proficiency group found in the model. Error bars represent 95% confidence intervals. The absence of interaction effects in the model is visually supported by the parallel pattern of bars across conditions.
+```{r}
+ggplot(emm_df, aes(x = prime_type, y = emmean, fill = proficiency_group)) +
+    geom_col(position = position_dodge(0.8), width = 0.7) +
+    geom_errorbar(aes(ymin = asymp.LCL, ymax = asymp.UCL),
+                  position = position_dodge(0.8), width = 0.2) +
+    labs(
+        x = "Prime Type",
+        y = "Estimated RT (ms)",
+        fill = "Proficiency Group",
+        title = "Estimated RTs by Prime Type and Proficiency"
+    ) +
+    theme_minimal()
+
+```
+
+This line plot displays predicted RTs from the linear mixed-effects model using LexTALE score as a continuous moderator of priming effects. Each line represents a prime type (literal, metaphor, unrelated), with shaded ribbons indicating 95% confidence intervals. The nearly parallel trajectories suggest that LexTALE score significantly predicts overall RT (as confirmed by the main effect in the model), but does not differentially modulate the effect of prime type—consistent with the absence of significant interaction effects. The gradual decline in RTs as LexTALE increases reflects a general proficiency effect, whereby more proficient participants responded faster regardless of prime condition.
+```{r}
+ggplot(pred, aes(x = x, y = predicted, color = group)) +
+    geom_line(linewidth = 1) +
+    geom_ribbon(aes(ymin = conf.low, ymax = conf.high, fill = group), alpha = 0.2, color = NA) +
+    labs(
+        x = "LexTALE Score",
+        y = "Predicted RT (ms)",
+        color = "Prime Type",
+        fill = "Prime Type",
+        title = "Predicted RTs by LexTALE Score and Prime Type"
+    ) +
+    theme_minimal()
+```
+
+Each panel presents the predicted RTs for one prime type across a range of LexTALE scores, with 95% confidence intervals shown as shaded ribbons. The negative slope in each panel indicates that higher lexical proficiency is associated with faster RTs, regardless of the type of prime. The similarity in slope and overlap in confidence intervals across conditions suggests that LexTALE score affects general processing speed but does not substantially interact with prime type—consistent with the non-significant interaction terms in the model.
+```{r}
+ggplot(pred, aes(x = x, y = predicted, color = group)) +
+    geom_line(linewidth = 1) +
+    geom_ribbon(aes(ymin = conf.low, ymax = conf.high, fill = group), alpha = 0.2, color = NA) +
+    facet_wrap(~ group) +  # One panel per prime type
+    labs(
+        x = "LexTALE Score",
+        y = "Predicted RT (ms)",
+        color = "Prime Type",
+        fill = "Prime Type",
+        title = "RT Predictions by LexTALE and Prime Type (Faceted)"
+    ) +
+    theme_minimal()
+```
+### Exploratory analyses
+
+Any follow-up analyses desired (not required). 
+
+```{r}
+
+```
+
+## Discussion
+
+### Summary of Replication Attempt
+
+This replication sought to verify the findings of Werkmann Horvat et al. (2021), who reported slower reaction times (RTs) for literal primes compared to unrelated ones in advanced L2 speakers—a pattern interpreted as semantic interference from dominant literal senses. In our confirmatory analyses, we successfully replicated the null main effect of prime type, finding no evidence for facilitation or interference across literal, metaphorical, or unrelated conditions. This finding was consistent across both models: one treating LexTALE proficiency as a continuous predictor, and another modeling proficiency as a binary factor (intermediate vs. advanced).
+
+Notably, the binary model revealed a significant main effect of proficiency group, with advanced speakers responding significantly faster than intermediate ones. This contrasts with the original study, where proficiency group was not found to significantly affect RTs. This replication analyzed 150 L2 participants' data, which is substantially more than the original study's sample size. The results confirm the power analysis that Werkmann Horvat et al.'s study was likely underpowered. Thus, the failure to replicate a lack of proficiency grouping effect here may reflect greater precision in estimating the null. Given this greater precision, this replication study lends robustness to the claim that no reliable priming effects emerged for conventional metaphoric or literal pairs during L2 processing.
+
+Additionally, unlike the original study, I did not replicate the marginally significant "negative" priming effect for literal primes in advanced L2 speakers. This failure to replicate calls into question Werkmann Horvat et al.'s claim that conventional metaphor has a "special status in the L2 lexicon". There is little contention regarding this claim outside of their study; many studies have yielded evidence of a continuum of processing difficulty between literal and highly novel metaphoric language (e.g., Jankowiack et al., 2017, 2021; Mashal et al., 2015). However, further replication of a negative priming effect for literal pairs must be achieved before the current study design adds to this line of research. The failure to replicate the negative priming effect may also reflect limitations inherent to the lexical decision task (LDT). As others have argued (Zeelenberg & Pecher, 2019; Jiang, 2023), LDTs may insufficiently engage the semantic system, especially in unbalanced bilinguals who tend to pay more attention to form. Because participants can often perform the task without full semantic integration of the prime-target pair, priming effects—especially weak or inhibitory ones—may be masked by variability in lexical access strategies. Although Werkmann Horvat et al. cite prior evidence for the LDT’s utility, newer meta-analyses and modeling studies suggest that tasks with greater conceptual depth (e.g., animacy judgments, sentence comprehension) feature clearer priming effects  (Jiang, 2023), and thus may be better suited for detecting metaphor-related activation in bilinguals.
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+
+
+Another factor that may have impacted priming effects is the nature of the semantic relation between primes and targets. Much of the cross-modal priming literature cited in support of priming effects (e.g., Francis et al., 2010; Taylor & Francis, 2017) has relied on paradigmatic relations between words (e.g., "dog"–"cat"). In contrast, Werkmann Horvat et al. (2021) employed primes and targets in syntagmatic relations (e.g., "window"–"break"), which may activate different types of associative networks. This difference in relational structure introduces an important variable that has not been systematically investigated in metaphor processing tasks, and it is possible that the syntagmatic nature of the items may undermine the extent to which spreading activation operates in typical priming paradigms.
+
+While there is a growing consensus that L1 and L2 are connected to a shared semantic system, the nature of that sharing may be more nuanced than typically acknowledged. Jiang (2023) suggests that, for many bilinguals—especially at beginner and intermediate levels—L2 items are mapped onto an L1-dominant semantic system. Even advanced L2 users may exhibit asymmetries in activation strength and network organization. Thus, the absence of priming effects in the current replication may not simply reflect a task-level issue, but a deeper representational asymmetry: conceptual overlap across languages may be insufficient to trigger reliable priming when the L2 lexeme does not fully replicate the semantic distribution or salience of its L1 counterpart. Metaphor comprehension in L2 must be situated within the broader context of how polysemy is distributed across languages. Werkmann Horvat et al. (2021) review studies on metaphor processing in L2 but do not account for cross-linguistic variation in the lexical and conceptual structuring of metaphorically extended verbs. For instance, while the English phrase "tackle an assignment" evokes a physical struggle, its German equivalent sich auf eine Aufgabe stürzen involves a metaphor of vertical motion—more akin to "plunge into an assignment," though it conveys the same go-getter attitude as English "tackle". The verb stürzen exhibits a broader syntagmatic profile than any single English verb encompasses. It can collocate with Treppen ("stairs") to mean "fall down stairs," with Mannschaft ("team") to mean “attack the team,” or with Aufgabe ("task") to mean "throw oneself into the task." These uses span literal and metaphorical domains and correspond roughly to English verbs like plunge, hustle, drop, but none of these English verbs capture the full range of stürzen’s argument structure and metaphoric scope. Because such differences affect the salience and accessibility of metaphorical senses, participants' L1 knowledge may interfere with or override L2-specific metaphorical extensions. Therefore, future studies should control for the cross-linguistic distribution of argument structures and metaphorical entailments. One approach would be to select verbs whose literal and metaphorical uses align more closely across L1 and L2 in both syntagmatic realization and conceptual motivation, in order to isolate metaphor processing from representational mismatch.
+
+
